@@ -1,0 +1,350 @@
+{
+    "title": "AI and Math at Queen's Computing",
+    "summary": "I am a computing student focused on using artificial intelligence to solve high-value problems. Through experience in machine learning, data science, and software development, I aim to create exciting and deeply impactful projects. ",
+    "studies": [
+        {
+            "institute": "Queen's University",
+            "logo":"https://www.queensu.ca/sites/default/files/assets/pages/QueensLogo_colour.jpg",
+            "url": "https://www.queensu.ca/",
+            "title": "Bachelor of Computing, Focus in AI, Minor in Math",
+            "durationInYears": "4",
+            "graduationYear": "2022",
+            "gpa": "4.3"
+        }
+    ],
+
+    "certifications":[
+        {
+            "logo": "https://media.licdn.com/dms/image/C4E0BAQGt72dvhq4yRA/company-logo_100_100/0?e=1582761600&v=beta&t=hhEVzn1G8ccZ7StCINkJ1grKyJoOeU1ebAe_LRZ_Xtw",
+            "url": "https://www.coursera.org/account/accomplishments/verify/PEFL2U3RAXGX",
+            "title": "Applied Plotting, Charting & Data Representation in Python by University of Michigan",
+            "issuer": "Coursera",
+            "issueDate": "2019-11",
+            "verificationLink": "https://www.coursera.org/account/accomplishments/verify/PEFL2U3RAXGX"
+        },
+        {
+            "logo": "https://media.licdn.com/dms/image/C4E0BAQGt72dvhq4yRA/company-logo_100_100/0?e=1582761600&v=beta&t=hhEVzn1G8ccZ7StCINkJ1grKyJoOeU1ebAe_LRZ_Xtw",
+            "url": "https://www.coursera.org/account/accomplishments/verify/T3NG9222VAP4",
+            "title": "Introduction to Data Science by University of Michigan",
+            "issuer": "Coursera",
+            "issueDate": "2019-08",
+            "verificationLink": "https://www.coursera.org/account/accomplishments/verify/T3NG9222VAP4"
+        },
+        {
+            "logo": "https://media.licdn.com/dms/image/C4E0BAQGt72dvhq4yRA/company-logo_100_100/0?e=1582761600&v=beta&t=hhEVzn1G8ccZ7StCINkJ1grKyJoOeU1ebAe_LRZ_Xtw",
+            "url": "https://www.coursera.org/account/accomplishments/verify/47RZ9Q72EPHF?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate",
+            "title": "Machine Learning by Stanford University",
+            "issuer": "Coursera",
+            "issueDate": "2019-07",
+            "verificationLink": "https://www.coursera.org/account/accomplishments/verify/47RZ9Q72EPHF?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate"
+        }
+
+    ],
+
+    "awards": [
+        {
+            "awardName": "Dean's Honour List with Distinction",
+            "date": "2019-10",
+            "issuer": "Queen's University",
+            "description": "Awarded to the top 3% of students in Queen's Science or Computing by cumulative GPA. ",
+            "link": null
+
+        },
+
+        {
+            "awardName": "George Thomas Warren Scholarship in Computinng Science",
+            "date": "2019-8",
+            "issuer": "Queen's Computing",
+            "description": "Awarded to second year student(s) with the top GPA in the Queen's School of Computing.",
+            "link": null
+
+        }, 
+
+        {
+            "awardName": "Governor General's Academic Medal",
+            "date": "2018-6",
+            "issuer": "Holy Cross CSS",
+            "description": "Highest four year average at a Canadian high school (99%).",
+            "link": null
+
+        }, 
+
+        {
+            "awardName": "1st Place ECOO Programming Contest Kingston",
+            "date": "2018-3",
+            "issuer": "ECOO",
+            "description": "In a competition of the best programmers in the greater Kingston area, I led my team to win the competition. ",
+            "link": null
+
+        },
+
+        {
+            "awardName": "6th Place Eastern Regional ECOO Programming Contest",
+            "date": "2018-4",
+            "issuer": "ECOO",
+            "description": "Competing with the best programmers in a third of Ontario I lead my team to win 6th place, and advance to provincials. ",
+            "link": null
+
+        },
+
+        {
+            "awardName": "Duke of Edinburgh Gold Level Award",
+            "date": "2017-9",
+            "issuer": "Duke of Edinburgh",
+            "description": "I earned \"The world's leading youth achievement award\", through dedication to computer science, martial arts, tutoring, kayacking in Georgian Bay, and completing SHAD 2017. ",
+            "link": null
+
+        },
+
+        {
+            "awardName": "SHAD Fellow",
+            "date": "2017-7",
+            "issuer": "The SHAD Foundation",
+            "description": "Completed SHAD Waterloo 2017, Canada's premier STEM enrichment program for exceptional students. ",
+            "link": null
+
+        }
+
+    ],
+
+    "experiences": [
+        {
+            "companyName": "The Perk Lab, Queen's School of Computing",
+            "logo": "https://pbs.twimg.com/profile_images/1126559831974907904/00H6LDgM_400x400.png",
+            "url": "http://perk.cs.queensu.ca/",
+            "roles": [
+                {
+                    "title": "Undergraduate Researcher",
+                    "description": "Do lotsa research and stuf and stuff and stufff and I'll replace this. ",
+                    "bullets": [
+                        "Automatically annotated surgical video with 98% accuracy using convolutional neural networks in Keras at 30fps, on the open source 3D Slicer platform. Accepted for publication in SPIE 2020. ",
+                        "Extended 3D Slicer platform to analyze the curves of patients' colons in CT scans for a local physician, resulting in publications to SPIE 2019 and CARS 2019. The local physician is using this work in clinical study.",
+                        "Mentored a high school intern to implement a 3D U-Net for semantic segmentation of CT scans with 98.8% dice accuracy using Keras and Jupyter notebooks. Accepted for publication in SPIE 2020. ",
+                        "Developed an augmented reality surgery training tool with Microsoft HoloLens to visualize hernia surgery in 3D. ",
+                        "Presented at SPIE 2019 in San Diego, Inquiry at Queen's 2019, CSearch 2019, and the Imaging Network of Ontario 2019."
+                    ],
+                    "startDate": "2018-04",
+                    "currentJob": true,
+                    "location": "Kingston, Ontario"
+                },
+                {
+                    "title": "Outreach Manager",
+                    "description": "Managing the Perk Lab's outreach presence and coordinating with academic, government and industry visitors. ",
+                    "startDate": "2019-04",
+                    "currentJob": true,
+                    "location": "Kingston, Ontario"
+                }
+            ]
+        },
+
+        {
+            "companyName": "QMIND- Queen's University AI Hub",
+            "logo": "https://qmind.ca/wp-content/uploads/2019/08/qmindlogo-copy.png",
+            "url": "https://qmind.ca/",
+            "roles": [
+                {
+                    "title": "AI Team Lead",
+                    "description": "I am leading a team of five to develop a robotic computer vision system to map images to path traversability with K-Means clustering on IMU data, and neural networks on image data through ROS (Robot Operating System). ",
+                    "startDate": "2019-09",
+                    "currentJob": true,
+                    "location": "Kingston, Ontario"
+                },
+                {
+                    "title": "AI Engineer",
+                    "description": "Predicted house valuations within 20% using a CNN on Google Street View and satellite images, and a multi-layer perceptron on point of interest data. Utilized APIs on the Google Cloud for address lookup and image retrieval.",
+                    "startDate": "2018-09",
+                    "endDate" : "2019-05",
+                    "location": "Kingston, Ontario"
+                }
+            ]
+        },
+
+        {
+            "companyName": "QWEB - Queen's Web Development Team",
+            "logo": "https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/41550025_718959665124189_6490656673382793216_n.png?_nc_cat=108&_nc_ohc=hPEqKDOJBKEAQmHNgwv7TyQWN5jcKukCfBCrmZEE4qeSLsPtCwIhAeH2A&_nc_ht=scontent-yyz1-1.xx&oh=d8194b521194883cdf90bd72a7b0391e&oe=5E79C0AA",
+            "url": "https://www.facebook.com/queensuweb/?__tn__=kC-R&eid=ARDfD2Vxm-AKoTB2efEXnrjLxyc0SuVIQvEvomkcu2pzzK-nTy_CzM-YCMgHQEpAJ77Yp1I90Jjl4YKn&hc_ref=ARTJI79tOrGETk6UpFm3VIyOW9BMOQmg73RgMqNwbD4CMbOb6bb4t4DPMhF_k-_WFWI&__xts__[0]=68.ARC7mA8vXtzNq1ZKroPNB7zqDKTcle0kUD8hjzGFlk_3uxC_lhFAUBxobHG3c2N9l48vSvXLsFlwCI_iIhWHTcOsxFU6GFmgLjyVqPr6Wrd-NxmHV6uLqE6xvlscnrzhD9bfzlWkijlOg09hx1csUUnTxAnt9eN0T52fN2OiGo0zjySlr8VyKxPO63TwJb5Qb1urNHdnVVRZ1shEvtfEf0LES6WqS4Zeb9nrzaZiVVzYskv5Yz_EFpGQw08JeW7Y2ZE18kCTUYF9",
+            "roles": [
+                {
+                    "title": "Web Developer",
+                    "description": "Working in HTML, CSS, JavaScript, Node.Js, React Js, and MongoDB.",
+                    "startDate": "2019-08",
+                    "currentJob": true,
+                    "location": "Kingston, Ontario"
+                }
+            ]
+        },
+
+        {
+            "companyName": "QBIT - Queen's Biomedical Innovation Team",
+            "logo": "https://static.wixstatic.com/media/8a0056_e71daec8a1b444648d984dd4a70881dd~mv2.png/v1/fill/w_115,h_128,al_c,q_80,usm_0.66_1.00_0.01/8a0056_e71daec8a1b444648d984dd4a70881dd~mv2.webp",
+            "url": "https://www.qbitqueensu.com/",
+            "roles": [
+                {
+                    "title": "Software Team Engineer",
+                    "description": "Developement towards a low cost electrochemical impedance spectroscopy unit for detection of skin diseases.",
+                    "startDate": "2018-09",
+                    "endDate" : "2019-05",
+                    "location": "Kingston, Ontario"
+                }
+            ]
+        }
+    ],
+
+    "projects": [
+        {
+            "projectName": "Robotic Computer Vision for Traversability",
+            "role": "Team Lead",
+            "org": "QMIND - Queen's AI Hub",
+            "bullets": [
+                "I am leading a team of five to develop a robotic computer vision system to map images to path traversability with K-Means clustering on IMU data, and neural networks on image data through ROS (Robot Operating System). "
+            ],
+            "tools": [
+                "Python",
+                "Keras",
+                "Scikit-learn",
+                "Pandas",
+                "machine learning",
+                "neural networks",
+                "RNN",
+                "clustering"
+            ]
+        },
+
+        {
+            "projectName": "Google Street View Appraiser",
+            "role": "AI Design Team Member",
+            "org": "QMIND - Queen's AI Hub",
+            "bullets": [
+                "Predicted house valuations within 20% using a CNN on Google Street View and satellite images, and a multi-layer perceptron on point of interest data. ",
+                "Utilized APIs on the Google Cloud for address lookup and image retrieval.",
+                "My team of four partnered with Co-Operators and presented at the Canadian Undergraduate Conference on AI 2019."
+            ],
+            "tools": [
+                "Python",
+                "machine learning",
+                "deep learning",
+                "Keras",
+                "Scikit-learn",
+                "Beautiful soup",
+                "Google Cloud Platform"
+            ]
+        },
+
+        {
+            "projectName": "Encrypted Image Messenger",
+            "role": "Individual",
+            "org": "",
+            "bullets": [
+                "Hides messages in images by modifying RGB values with the Python Image Library. Socket programming is used for wireless communication, and TkInter is used for the graphical user interface."
+            ],
+            "tools": [
+                "Python",
+                "Pillow",
+                "PIL",
+                "socket programming",
+                "TkInter"
+            ]
+        },
+
+        {
+            "projectName": "Spoiler Blocking Chrome Extension",
+            "role": "",
+            "org": "QHacks Hackathon",
+            "bullets": [
+                "We developed a Chrome web extension in JavaScript to blur spoilers on web pages, using keywords I webscraped from movie databases with custom Standard Library APIs I wrote in Python."
+            ],
+            "tools": [
+                "JavaScript",
+                "Standard Library",
+                "Beautiful soup",
+                "Python",
+                "HTML",
+                "CSS"
+            ]
+        },
+
+        {
+            "projectName": "Medical Abnormalities Explorer",
+            "role": "Individual",
+            "org": "",
+            "bullets": [
+                "Developed a Java application to parse the Human Phenotype Ontology, creating a tree structure which is recursively traversed to explore phenotypes."
+            ],
+            "tools": [
+                "Java",
+                "Data structures",
+                "tree structure"
+            ]
+        },
+
+        {
+            "projectName": "Surgical Video Classification",
+            "role": "",
+            "org": "The Perk Lab",
+            "bullets": [
+                "Automatically annotated surgical video with 98% accuracy using convolutional neural networks in Keras at 30fps, on the open source 3D Slicer platform.",
+                "Accepted for publication in SPIE 2020. "
+            ],
+            "tools": [
+                "Python",
+                "Jupyter", 
+                "Keras",
+                "machine learning",
+                "deep learning",
+                "CNN",
+                "3D Slicer"
+            ]
+        }
+    ],
+
+    "research": [
+        {
+            "paperTitle": "Open source platform for automated collection of training data to support video-based feedback in surgical simulators",
+            "authors": ["Jacob Laframboise", "Tamas Ungi", "Kyle Sunderland", "Boris Zevin", "Gabor Fichtinger"],
+            "paperType": "Paper Accepted",
+            "pres": "Oral presentation",
+            "location": "Houston, Texas",
+            "citation": "Jacob Laframboise, Tamas Ungi, et al. \"Open source platform for automated collection of training data to support video-based feedback in surgical simulators\"." 
+        },
+
+        {
+            "paperTitle": "Analyzing the curvature of the colon in different patient positions",
+            "authors": ["Jacob Laframboise", "Tamas Ungi", "Andras Lasso", "Mark Asselin", "Matthew S. Holden", "Pearl Tan", "Lawrence Hookey", "Gabor Fichtinger"],
+            "paperType": "Paper published",
+            "pres": "Poster presentation",
+            "location": "San Diego, California",
+            "citation": "Jacob Laframboise, Tamas Ungi, Andras Lasso, Mark Asselin, Matthew S. Holden, Pearl Tan, Lawrence Hookey, and Gabor Fichtinger \"Analyzing the curvature of the colon in different patient positions\", Proc. SPIE 10951, Medical Imaging 2019: Image-Guided Procedures, Robotic Interventions, and Modeling, 109512F (8 March 2019); https://doi.org/10.1117/12.2512455" 
+        }
+    ],
+
+    "skillsDepth": [
+        "Python",
+        "Java",
+        "machine learning",
+        "Git",
+        "HTML",
+        "Pandas",
+        "NumPy",
+        "Keras",
+        "Beautiful soup",
+        "Matplotlib",
+        "Jupyter",
+        "Scikit-learn",
+        "3D Slicer",
+        "Raspberry pi",
+        "research"
+    ],
+
+    "skillsFamiliar": [
+        "JavaScript",
+        "Node.Js",
+        "C++",
+        "CSS",
+        "React",
+        "Linux",
+        "Azure"
+    ]
+
+
+
+}
