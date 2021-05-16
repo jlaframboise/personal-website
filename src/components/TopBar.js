@@ -7,6 +7,7 @@ class TopBar extends React.Component{
     constructor(props){
         super(props);
 
+        this.toggleTab = props.toggleTab;
         this.toggle = this.toggle.bind(this);
         this.state = {
             isOpen: false
@@ -18,10 +19,13 @@ class TopBar extends React.Component{
             isOpen: !this.state.isOpen
         });
     }
+    toggle(tab){
+        super.toggle(tab);
+    }
 
     render(){
         return (
-            <Navbar color="dark" dark expand="md">
+            <Navbar color="dark" dark expand="md" fixed='top'>
                 <Container>
                     <NavbarBrand href="/">
                         <img src={images("./profilePic.jpg")} className="profile-pic" alt="Jacob Laframboise"></img>
@@ -31,7 +35,29 @@ class TopBar extends React.Component{
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink href="/profile/">Profile</NavLink>
+                                <NavLink onClick={() => {this.toggleTab('1');}}>
+                                    Experience
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink onClick={() => {this.toggleTab('2');}}>
+                                    Education
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink onClick={() => {this.toggleTab('3');}}>
+                                    Projects
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink onClick={() => {this.toggleTab('4');}}>
+                                    Awards
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink onClick={() => {this.toggleTab('5');}}>
+                                    Timeline View
+                                </NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>

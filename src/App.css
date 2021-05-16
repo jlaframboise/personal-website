@@ -48,6 +48,17 @@ div.media .jobLocation{
 
   color: cornflowerblue;
 }
+.timeline-icon{
+  display: block;
+  /* width: 100px;
+  height: 100px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+  height: 100%;
+}
 
 footer{
   margin-top: 20px;

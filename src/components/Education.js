@@ -52,7 +52,7 @@ class Education extends React.Component{
             <br/>
             <Row>
                 <Col>
-                    <h4>Certifications:</h4>
+                    <h4>Certifications</h4>
                     <hr/>
                     {profile.certifications.map(function (cert, i){
                         const verification = cert.verificationLink ? 
