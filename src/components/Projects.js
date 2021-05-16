@@ -4,44 +4,51 @@ import profile from "../profile";
 import moment from "moment";
 import {Media} from "reactstrap";
 
+const images = require.context('../../public/images', true)
+
+
+const Project = function(project, i){
+    moment.locale('en');
+    const imagePath = "./" + project.logo;
+    const projectLogo = images(imagePath)
+
+    return (
+        <div key={i}>
+        <Media>
+            <Media left top href={project.url}>
+                <Media object src={projectLogo} alt={project.projectName}/>
+            </Media>
+            <Media body>
+                <Media heading>
+                    <a href={project.url}>{project.projectName}</a>
+                </Media>
+                    <h4>{project.role}</h4>
+                    <span className="projectOrg">{project.org}</span>
+                    <ul>
+                        {project.bullets ? project.bullets.map(function(bullet){
+                            return <li>{bullet}</li>
+                        }) : ""}
+                    </ul>
+                    
+                    <p>{project.tools.join(', ')}</p>
+                    
+                    {!project.bullets ? 
+                        <p className="projectDescription">
+                            {project.description}
+                        </p>  : ""}
+        </Media>
+        </Media>
+    </div>
+    )
+}
+
 class Projects extends React.Component{
     render(){
         return(
             <Container>
                 <Row>
                     <Col>
-                    {profile.projects.map(function (project, i){
-                        moment.locale('en');
-
-                        return (
-                            <div key={i}>
-                                <Media>
-                                    <Media left top href={project.url}>
-                                        <Media object src={project.logo} alt={project.projectName}/>
-                                    </Media>
-                                    <Media body>
-                                        <Media heading>
-                                            <a href={project.url}>{project.projectName}</a>
-                                        </Media>
-                                            <h4>{project.role}</h4>
-                                            <span className="projectOrg">{project.org}</span>
-                                            <ul>
-                                                {project.bullets ? project.bullets.map(function(bullet){
-                                                    return <li>{bullet}</li>
-                                                }) : ""}
-                                            </ul>
-                                            
-                                            <p>{project.tools.join(', ')}</p>
-                                            
-                                            {!project.bullets ? 
-                                                <p className="projectDescription">
-                                                    {project.description}
-                                                </p>  : ""}
-                                </Media>
-                                </Media>
-                            </div>
-                        );
-                    })}
+                    {profile.projects.map(Project)}
                     </Col>
                 </Row>
             </Container>

@@ -1,6 +1,7 @@
 import React from 'react';
 import {Container, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink} from 'reactstrap';
-import profilePic from '../profilePic.jpg';
+// import profilePic from "../images/profilePic.jpg";
+const images = require.context('../../public/images', true)
 
 class TopBar extends React.Component{
     constructor(props){
@@ -23,7 +24,7 @@ class TopBar extends React.Component{
             <Navbar color="dark" dark expand="md">
                 <Container>
                     <NavbarBrand href="/">
-                        <img src={profilePic} className="profile-pic" alt="Jacob Laframboise"></img>
+                        <img src={images("./profilePic.jpg")} className="profile-pic" alt="Jacob Laframboise"></img>
                         <span>Jacob Laframboise</span>
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggle}/>

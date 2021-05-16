@@ -1,7 +1,7 @@
 import React from 'react';
 import {Jumbotron, Container, TabContent, TabPane, Nav, NavItem, NavLink} from 'reactstrap';
 import classnames from 'classnames';
-import Experience from './Experience';
+import Experiences from './Experiences';
 import Education from './Education';
 import Projects from './Projects';
 import profile from '../profile.json';
@@ -62,7 +62,7 @@ class Profile extends React.Component{
 
                 <TabContent activeTab={this.state.activeTab}>
                     <TabPane tabId="1">
-                        <Experience/>
+                        <Experiences/>
                     </TabPane>
                     <TabPane tabId="2">
                         <Education/>
