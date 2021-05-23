@@ -3,6 +3,9 @@ import {Container, Row, Col} from "reactstrap";
 import profile from "../profile";
 import moment from "moment";
 import {Media} from "reactstrap";
+import particlesOptions from "./particlesOptions"
+import Particles from "react-tsparticles";
+import '../App.css';
 
 const images = require.context('../../public/images', true)
 
@@ -52,8 +55,8 @@ const Experience = function(experience, i){
                                 <span className="jobLocation">{role.location}</span>
 
                                 <ul>
-                                    {role.bullets ? role.bullets.map(function(bullet){
-                                        return <li>{bullet}</li>
+                                    {role.bullets ? role.bullets.map(function(bullet, i){
+                                        return <li key={i}>{bullet}</li>
                                     }) : ""}
                                 </ul>
                                 {!role.bullets ? 
@@ -77,8 +80,10 @@ class Experiences extends React.Component{
     render(){
         return(
             <Container>
+                
                 <Row>
                     <Col>
+                    <Particles options={particlesOptions} className="particles-background"/>
                     {profile.experiences.map(function (experience, i){
                         return(Experience(experience, i))
                     })}

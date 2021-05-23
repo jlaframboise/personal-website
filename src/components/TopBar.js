@@ -35,6 +35,11 @@ class TopBar extends React.Component{
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
+                                <NavLink onClick={() => {this.toggleTab('0');}}>
+                                    Home
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
                                 <NavLink onClick={() => {this.toggleTab('1');}}>
                                     Experience
                                 </NavLink>

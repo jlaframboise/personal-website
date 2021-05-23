@@ -2,6 +2,10 @@ import React from 'react';
 import {Container, Row, Col, Media} from 'reactstrap';
 import moment from 'moment';
 import profile from '../profile.json';
+import '../App.css';
+
+
+
 const images = require.context("../../public/images", true)
 
 class Education extends React.Component{
@@ -31,9 +35,13 @@ class Education extends React.Component{
                                         {
                                             "key": "Duration", 
                                             "value": study.durationInYears + " year(s)"
+                                        },
+                                        {
+                                            "key": "GPA",
+                                            "value": study.gpa
                                         }
                                     ].map(function (object, i){
-                                        return <div>
+                                        return <div key={i}>
                                             <Row>
                                                 <Col className="formLabel">{object.key}:</Col>
                                             </Row>

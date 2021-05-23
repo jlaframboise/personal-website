@@ -3,6 +3,7 @@ import {Container, Row, Col} from "reactstrap";
 import profile from "../profile";
 import moment from "moment";
 import {Media} from "reactstrap";
+import '../App.css';
 
 const images = require.context('../../public/images', true)
 
@@ -25,8 +26,8 @@ const Project = function(project, i){
                     <h4>{project.role}</h4>
                     <span className="projectOrg">{project.org}</span>
                     <ul>
-                        {project.bullets ? project.bullets.map(function(bullet){
-                            return <li>{bullet}</li>
+                        {project.bullets ? project.bullets.map(function(bullet, i){
+                            return <li key={i}>{bullet}</li>
                         }) : ""}
                     </ul>
                     

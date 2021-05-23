@@ -1,4 +1,3 @@
-import { icon } from '@fortawesome/fontawesome-svg-core';
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css'
@@ -8,7 +7,7 @@ import Sort from './Sort'
 
 const images = require.context('../../public/images', true)
 
-const Timeline = ({jobs, projects, awards, educations}) =>{
+const Timeline = () =>{
     
 
     return (
@@ -29,14 +28,14 @@ const Timeline = ({jobs, projects, awards, educations}) =>{
                                     endDate={role.endDate}
                                     date={role.startDate + " - " + role.endDate}
                                     iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
-                                    icon={<img src={logo} className="timeline-icon"></img>}
+                                    icon={<img src={logo} alt="Role logo" className="timeline-icon"></img>}
 
                                 >
                                     <h3 className="vertical-timeline-element-title">{role.title}</h3>
                                     <h4 className="vertical-timeline-element-subtitle" ><a href={job.url}>{job.companyName}</a></h4>
                                     <ul>
-                                        {role.bullets ? role.bullets.map(function(bullet){
-                                            return <li>{bullet}</li>
+                                        {role.bullets ? role.bullets.map(function(bullet, i){
+                                            return <li key={i}>{bullet}</li>
                                         }) : ""}
                                     </ul>
                                     {!role.bullets ? 

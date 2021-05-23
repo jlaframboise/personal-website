@@ -1,15 +1,14 @@
 import React from 'react';
-import {Jumbotron, Container, TabContent, TabPane, Nav, NavItem, NavLink} from 'reactstrap';
-import classnames from 'classnames';
+import {Container, TabContent, TabPane} from 'reactstrap';
 import Experiences from './components/Experiences';
 import Education from './components/Education';
 import Projects from './components/Projects';
-import profile from './profile.json';
 import Awards from './components/Awards';
 import TopBar from './components/TopBar';
 import Footer from './components/Footer';
 import './App.css';
 import Timeline from './components/Timeline';
+import Home from './components/Home'
 
 class App extends React.Component{
     constructor(props){
@@ -17,7 +16,7 @@ class App extends React.Component{
 
         this.toggle = this.toggle.bind(this);
         this.state = {
-            activeTab: '1'
+            activeTab: '0'
         };
     }
 
@@ -33,14 +32,7 @@ class App extends React.Component{
         
         return <div>
             <TopBar toggleTab={this.toggle}/>
-            <Jumbotron>
-                    <Container>
-                        <h1 className="display-3">{profile.title}</h1>
-                        <p className="lead">{profile.summary}</p>
-                    </Container>
-            </Jumbotron>
-
-            <Container>
+            <Container className="m-3 p-3">
                 {/* <Nav tabs>
                     <NavItem>
                         <NavLink className={classnames({active: this.state.activeTab === '1'})} onClick={() => {this.toggle('1');}}>
@@ -63,9 +55,12 @@ class App extends React.Component{
                         </NavLink>
                     </NavItem>
                 </Nav> */}
-                
+            
 
                 <TabContent activeTab={this.state.activeTab}>
+                    <TabPane tabId="0">
+                        <Home/>
+                    </TabPane>
                     <TabPane tabId="1">
                         <Experiences/>
                     </TabPane>
@@ -82,6 +77,7 @@ class App extends React.Component{
                         <Timeline/>
                     </TabPane>
                 </TabContent>
+
             </Container>
             <Footer/>
         </div>

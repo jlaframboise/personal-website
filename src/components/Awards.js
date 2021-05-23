@@ -1,9 +1,10 @@
 import React from "react";
-import {Container, Row, Col} from "reactstrap";
+import {Container} from "reactstrap";
 import profile from "../profile";
 import moment from "moment";
-import {Media, Toast, ToastHeader, ToastBody, Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button, CardGroup} from "reactstrap";
+import {Card, CardBody,
+    CardTitle, CardSubtitle, CardGroup} from "reactstrap";
+import '../App.css';
 
 class Awards extends React.Component{
     render(){
