@@ -62,7 +62,7 @@ class App extends React.Component{
 
                 <TabContent className="full-width my-auto" activeTab={this.state.activeTab} style={{align: "center"}}>
                     <TabPane tabId="0">
-                        <Home/>
+                        <Home toggleTab={this.toggleTab}/>
                     </TabPane>
                     <TabPane tabId="1">
                         <Experiences/>

@@ -15,7 +15,7 @@ class Home extends React.Component{
 
     constructor(props){
         super(props);
-
+        this.toggleTab = props.toggleTab;
         this.particlesInit = this.particlesInit.bind(this);
         this.particlesLoaded = this.particlesLoaded.bind(this);
     }
@@ -57,19 +57,19 @@ class Home extends React.Component{
                 <hr></hr>
 
                 <div className=" d-flex align-items-center justify-content-center flex-wrap">
-                    <Button className="m-3">
+                    <Button className="m-3" onClick = {() => this.toggleTab("1")}>
                         <h3>Experience</h3>
                         <p>Check out my work experience!</p>
                     </Button>
-                    <Button className="m-3">
+                    <Button className="m-3" onClick = {() => this.toggleTab("3")}>
                         <h3>Projects</h3>
                         <p>Check out my projects!</p>
                     </Button>
-                    <Button className="m-3">
+                    <Button className="m-3" onClick = {() => this.toggleTab("2")}>
                         <h3>Education</h3>
                         <p>Check out my education!</p>
                     </Button>
-                    <Button className="m-3">
+                    <Button className="m-3" onClick = {() => this.toggleTab("4")}>
                         <h3>Awards</h3>
                         <p>Check out my awards!</p>
                     </Button>
