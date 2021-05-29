@@ -1,9 +1,12 @@
 import React from 'react';
 import profile from "../profile";
+import {Jumbotron, Container, Row, Col, Media, Toast, ToastBody, ToastHeader, Button} from 'reactstrap';
 import particlesOptions from "./particlesOptions"
-import {Jumbotron, Container} from 'reactstrap';
 import Particles from "react-tsparticles";
+
+
 import '../App.css';
+import ButtonGroup from 'reactstrap/lib/ButtonGroup';
 
 
 const images = require.context("../../public/images", true)
@@ -29,22 +32,69 @@ class Home extends React.Component{
 
     render(){
         return(
-            <Container className="m-0 p-0">
+            <Container fluid className="m-0 p-0">
                 <Particles options={particlesOptions} className="particles-background"/>
+                
 
+                <Row className="align-items-center">
+                    <Col className="">
+                        <img className="rounded-circle" src={images("./profilePic.jpg")} alt="Profile picture" width="100%"/>
+                    </Col>
+                    <Col className=" d-flex justify-content-center">
+                        <h1>Hey, <br></br>I'm Jacob!</h1>
+                    </Col>
+                </Row>
+                <hr></hr>
+
+                <Row className=" d-flex justify-content-center">
+                    <Col xs={{offset: 2, size: 8}}>
+                        <h2>A machine learning, data science, and software development enthusiast</h2>
+                        <hr></hr>
+                        <h2>Student at Queen's Computing</h2>
+                    </Col>
+                </Row>
+
+                <hr></hr>
+
+                <div className=" d-flex align-items-center justify-content-center flex-wrap">
+                    <Button className="m-3">
+                        <h3>Experience</h3>
+                        <p>Check out my work experience!</p>
+                    </Button>
+                    <Button className="m-3">
+                        <h3>Projects</h3>
+                        <p>Check out my projects!</p>
+                    </Button>
+                    <Button className="m-3">
+                        <h3>Education</h3>
+                        <p>Check out my education!</p>
+                    </Button>
+                    <Button className="m-3">
+                        <h3>Awards</h3>
+                        <p>Check out my awards!</p>
+                    </Button>
+
+                </div>
+
+                {/* <Row className="align-items-center">
+                    <Col xs={{offset: 2, size: 8}}>
+                        <h2>A machine learning, data science, and software development enthusiast</h2>
+                        <hr></hr>
+                        <h2>Student at Queen's Computing</h2>
+                    </Col>
+                </Row> */}
                     
-                <h1>Hello world</h1>
                 
             </Container>
             
             
             // <Container>
             //     <Jumbotron>
-            //             <Container>
-            //                 <h1 className="display-3">{profile.title}</h1>
-            //                 <p className="lead">{profile.summary}</p>
-            //             </Container>
-            //     </Jumbotron>
+                //             <Container>
+                //             <h1 className="display-3">{profile.title}</h1>
+                //             <p className="lead">{profile.summary}</p>
+                //         </Container>
+                // </Jumbotron>
             //     <div
             //         style={{
             //             position: "absolute",

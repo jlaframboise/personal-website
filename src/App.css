@@ -64,6 +64,10 @@ body{
   padding-top: 70px;
 }
 
+.full-width{
+  width: 100%;
+}
+
 .particles-background{
   position: fixed;
   top: 0;

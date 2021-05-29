@@ -30,9 +30,9 @@ class App extends React.Component{
 
     render(){
         
-        return <div>
+        return <div className="">
             <TopBar toggleTab={this.toggle}/>
-            <Container className="m-3 p-3">
+            <Container className="my-auto d-flex justify-center " style={{justify: "center", minHeight: "80vh", width: "100vw"}} >
                 {/* <Nav tabs>
                     <NavItem>
                         <NavLink className={classnames({active: this.state.activeTab === '1'})} onClick={() => {this.toggle('1');}}>
@@ -57,7 +57,7 @@ class App extends React.Component{
                 </Nav> */}
             
 
-                <TabContent activeTab={this.state.activeTab}>
+                <TabContent className="full-width my-auto" activeTab={this.state.activeTab} style={{align: "center"}}>
                     <TabPane tabId="0">
                         <Home/>
                     </TabPane>
