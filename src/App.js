@@ -14,13 +14,14 @@ class App extends React.Component{
     constructor(props){
         super(props);
 
-        this.toggle = this.toggle.bind(this);
+        this.toggleTab = this.toggleTab.bind(this);
         this.state = {
-            activeTab: '0'
+            activeTab: '0',
+            isOpen: false
         };
     }
 
-    toggle(tab){
+    toggleTab(tab){
         if (this.state.activeTab !== tab){
             this.setState({
                 activeTab: tab
@@ -28,10 +29,12 @@ class App extends React.Component{
         }
     }
 
+
+
     render(){
         
         return <div className="">
-            <TopBar toggleTab={this.toggle}/>
+            <TopBar toggleTab={this.toggleTab}/>
             <Container className="my-auto d-flex justify-center " style={{justify: "center", minHeight: "80vh", width: "100vw"}} >
                 {/* <Nav tabs>
                     <NavItem>

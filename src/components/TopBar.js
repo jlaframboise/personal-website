@@ -6,8 +6,8 @@ const images = require.context('../../public/images', true)
 class TopBar extends React.Component{
     constructor(props){
         super(props);
-
         this.toggleTab = props.toggleTab;
+        this.toggleTabAndClose = this.toggleTabAndClose.bind(this)
         this.toggle = this.toggle.bind(this);
         this.state = {
             isOpen: false
@@ -19,8 +19,13 @@ class TopBar extends React.Component{
             isOpen: !this.state.isOpen
         });
     }
-    toggle(tab){
-        super.toggle(tab);
+
+
+    toggleTabAndClose(tab){
+        this.toggleTab(tab);
+        if (this.state.isOpen){
+            this.toggle();
+        };
     }
 
     render(){
@@ -35,32 +40,32 @@ class TopBar extends React.Component{
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink onClick={() => {this.toggleTab('0');}}>
+                                <NavLink onClick={() => {this.toggleTabAndClose('0');}}>
                                     Home
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink onClick={() => {this.toggleTab('1');}}>
+                                <NavLink onClick={() => {this.toggleTabAndClose('1');}}>
                                     Experience
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink onClick={() => {this.toggleTab('2');}}>
+                                <NavLink onClick={() => {this.toggleTabAndClose('2');}}>
                                     Education
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink onClick={() => {this.toggleTab('3');}}>
+                                <NavLink onClick={() => {this.toggleTabAndClose('3');}}>
                                     Projects
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink onClick={() => {this.toggleTab('4');}}>
+                                <NavLink onClick={() => {this.toggleTabAndClose('4');}}>
                                     Awards
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink onClick={() => {this.toggleTab('5');}}>
+                                <NavLink onClick={() => {this.toggleTabAndClose('5');}}>
                                     Timeline View
                                 </NavLink>
                             </NavItem>
