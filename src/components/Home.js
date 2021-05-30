@@ -1,12 +1,10 @@
 import React from 'react';
-import profile from "../profile";
-import {Jumbotron, Container, Row, Col, Media, Toast, ToastBody, ToastHeader, Button} from 'reactstrap';
+import {Container, Row, Col, Button} from 'reactstrap';
 import particlesOptions from "./particlesOptions"
 import Particles from "react-tsparticles";
 
 
 import '../App.css';
-import ButtonGroup from 'reactstrap/lib/ButtonGroup';
 
 
 const images = require.context("../../public/images", true)
@@ -38,7 +36,7 @@ class Home extends React.Component{
 
                 <Row className="align-items-center">
                     <Col className="">
-                        <img className="rounded-circle" src={images("./profilePic.jpg")} alt="Profile picture" width="100%"/>
+                        <img className="rounded-circle" src={images("./profilePic.jpg")} alt="Jacob's headshot" width="100%"/>
                     </Col>
                     <Col className=" d-flex justify-content-center">
                         <h1>Hey, <br></br>I'm Jacob!</h1>
