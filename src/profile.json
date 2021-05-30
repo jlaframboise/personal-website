@@ -238,6 +238,11 @@
                 {
                     "title": "Director of Research",
                     "description": "I am leading a team of five to develop a robotic computer vision system to map images to path traversability with K-Means clustering on IMU data, and neural networks on image data through ROS (Robot Operating System). ",
+                    "bullets":[
+                        "Guided and supported 5 teams of 4-5 students through exciting projects in robotics and computer vision. ",
+                        "Coordinated the 2021 Proceedings of the Canadian Undergraduate Conference on AI, and guided 20+ teams of 4-5 members to write technical papers. ",
+                        "Expanded QMIND's hardware library with Intel RealSense depth cameras, and upgraded robots to ROS2. "
+                    ],
                     "startDate": "2020-04",
                     "endDate": "2021-04",
                     "currentJob": false,
@@ -246,6 +251,13 @@
                 {
                     "title": "AI Team Lead",
                     "description": "I am leading a team of five to develop a robotic computer vision system to map images to path traversability with K-Means clustering on IMU data, and neural networks on image data through ROS (Robot Operating System). ",
+                    "bullets":[
+                        "I led a team of 5 to develop an autonomous pothole avoidance system with the Turtlebot3 Waffle Pi and the Robot Operating System. ",
+                        "Developed a CNN to identify if a pothole was in frame with 97.9% accuracy.",
+                        "Developed a CNN to localize the pothole in frame with a RMSE of 0.41 pixels.",
+                        "Used PCA and other techniques to visualize the robot's sensor data.",
+                        "Used linear and non-linear methods of terrain classification from inertial measurement data."
+                    ],
                     "startDate": "2019-09",
                     "endDate": "2020-04",
                     "currentJob": false,
@@ -254,6 +266,11 @@
                 {
                     "title": "AI Engineer",
                     "description": "Predicted house valuations within 20% using a CNN on Google Street View and satellite images, and a multi-layer perceptron on point of interest data. Utilized APIs on the Google Cloud for address lookup and image retrieval.",
+                    "bullets": [
+                        "Predicted house valuations within 20% using a CNN on Google Street View and satellite images, and a multi-layer perceptron on point of interest data. ",
+                        "Utilized APIs on the Google Cloud for address lookup and image retrieval.",
+                        "My team of four partnered with Co-Operators and presented at the Canadian Undergraduate Conference on AI 2019."
+                    ],
                     "startDate": "2018-09",
                     "endDate" : "2019-04",
                     "currentJob": false,
@@ -271,7 +288,7 @@
                     "title": "Web Developer",
                     "description": "Working in HTML, CSS, JavaScript, Node.Js, React Js, and MongoDB.",
                     "startDate": "2019-08",
-                    "enDate": "2020-04",
+                    "endDate": "2020-04",
                     "currentJob": false,
                     "location": "Kingston, Ontario"
                 }
@@ -285,7 +302,7 @@
             "roles": [
                 {
                     "title": "Software Team Engineer",
-                    "description": "Developement towards a low cost electrochemical impedance spectroscopy unit for detection of skin diseases.",
+                    "description": "Development towards a low cost electrochemical impedance spectroscopy unit for detection of skin diseases.",
                     "startDate": "2018-09",
                     "endDate" : "2019-05",
                     "location": "Kingston, Ontario"
@@ -301,7 +318,11 @@
             "org": "QMIND - Queen's AI Hub",
             "logo": "turtlebotPi.jpg",
             "bullets": [
-                "I am leading a team of five to develop a robotic computer vision system to map images to path traversability with K-Means clustering on IMU data, and neural networks on image data through ROS (Robot Operating System). "
+                "I led a team of 5 to develop an autonomous pothole avoidance system with the Turtlebot3 Waffle Pi and the Robot Operating System. ",
+                "Developed a CNN to identify if a pothole was in frame with 97.9% accuracy.",
+                "Developed a CNN to localize the pothole in frame with a RMSE of 0.41 pixels.",
+                "Used PCA and other techniques to visualize the robot's sensor data.",
+                "Used linear and non-linear methods of terrain classification from inertial measurement data."
             ],
             "tools": [
                 "Python",
@@ -310,8 +331,31 @@
                 "Pandas",
                 "machine learning",
                 "neural networks",
-                "RNN",
-                "clustering"
+                "CNN",
+                "clustering",
+                "Linux",
+                "Robot Operating System"
+            ]
+        },
+
+        {
+            "projectName": "Surgical Video Classification",
+            "role": "",
+            "org": "The Perk Lab",
+            "logo": "3DSlicerLogo.png",
+            "bullets": [
+                "Automatically annotated surgical video with 98% accuracy using convolutional neural networks in Keras at 30fps.",
+                "Implemented as an extension on the open source 3D Slicer platform.",
+                "Published in SPIE Medical Imaging 2020."
+            ],
+            "tools": [
+                "Python",
+                "Jupyter", 
+                "Keras",
+                "machine learning",
+                "deep learning",
+                "CNN",
+                "3D Slicer"
             ]
         },
 
@@ -337,29 +381,13 @@
         },
 
         {
-            "projectName": "Encrypted Image Messenger",
-            "role": "Individual",
-            "org": "",
-            "logo": "encryptedeye.png",
-            "bullets": [
-                "Hides messages in images by modifying RGB values with the Python Image Library. Socket programming is used for wireless communication, and TkInter is used for the graphical user interface."
-            ],
-            "tools": [
-                "Python",
-                "Pillow",
-                "PIL",
-                "socket programming",
-                "TkInter"
-            ]
-        },
-
-        {
             "projectName": "Spoiler Blocking Chrome Extension",
             "role": "",
             "org": "QHacks Hackathon",
             "logo": "GUI.png",
             "bullets": [
-                "We developed a Chrome web extension in JavaScript to blur spoilers on web pages, using keywords I webscraped from movie databases with custom Standard Library APIs I wrote in Python."
+                "We developed a Chrome web extension in JavaScript to blur spoilers on web pages by keyword.", 
+                "I webscraped keywords from movie databases with custom Standard Library APIs I wrote in Python."
             ],
             "tools": [
                 "JavaScript",
@@ -377,34 +405,36 @@
             "org": "",
             "logo": "tree.png",
             "bullets": [
-                "Developed a Java application to parse the Human Phenotype Ontology, creating a tree structure which is recursively traversed to explore phenotypes."
+                "Developed a Java application to parse the Human Phenotype Ontology.", 
+                "Creating a tree structure which is recursively traversed to explore phenotypes."
             ],
             "tools": [
                 "Java",
-                "Data structures",
+                "data structures",
                 "tree structure"
             ]
         },
 
         {
-            "projectName": "Surgical Video Classification",
-            "role": "",
-            "org": "The Perk Lab",
-            "logo": "GUI.png",
+            "projectName": "Encrypted Image Messenger",
+            "role": "Individual",
+            "org": "",
+            "logo": "encryptedeye.png",
             "bullets": [
-                "Automatically annotated surgical video with 98% accuracy using convolutional neural networks in Keras at 30fps, on the open source 3D Slicer platform.",
-                "Accepted for publication in SPIE 2020. "
+                "Hides messages in images by modifying RGB values with the Python Image Library.",
+                "Socket programming is used for client-server wireless communication.", 
+                "TkInter is used for the graphical user interface."
             ],
             "tools": [
                 "Python",
-                "Jupyter", 
-                "Keras",
-                "machine learning",
-                "deep learning",
-                "CNN",
-                "3D Slicer"
+                "Pillow",
+                "PIL",
+                "socket programming",
+                "TkInter"
             ]
         }
+
+        
     ],
 
     "research": [

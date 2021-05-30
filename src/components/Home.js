@@ -46,11 +46,11 @@ class Home extends React.Component{
                 </Row>
                 <hr></hr>
 
-                <Row className=" d-flex justify-content-center">
-                    <Col xs={{offset: 2, size: 8}}>
+                <Row className=" d-flex justify-content-center text-center">
+                    <Col>
                         <h2>A machine learning, data science, and software development enthusiast</h2>
                         <hr></hr>
-                        <h2>Student at Queen's Computing</h2>
+                        <h2>Queen's University School of Computing</h2>
                     </Col>
                 </Row>
 
