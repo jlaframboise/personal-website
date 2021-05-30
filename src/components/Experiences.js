@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {Container, Row, Col} from "reactstrap";
 import profile from "../profile";
 import moment from "moment";
@@ -35,7 +35,7 @@ const Experience = function(experience, i){
             <div key={i}>
                 <Media>
                     <Media left top className="job-img-div" href={experience.url}>
-                        <Media object className="job-img" src={companyLogo} alt={experience.companyName} alt={"images/" + experience.logo}/>
+                        <Media object className="job-img" src={companyLogo} alt={experience.companyName}/>
                     </Media>
                     <Media body>
                         <Media heading>
