@@ -2,16 +2,24 @@ import React from 'react';
 import {Container, Row, Col, Media} from 'reactstrap';
 import moment from 'moment';
 import profile from '../profile.json';
+import '../App.css';
+
+
+
+const images = require.context("../../public/images", true)
 
 class Education extends React.Component{
     render(){
+
+        window.scrollTo(0,0);
+
         return <Container>
             <Row>
                 <Col>
                     {profile.studies.map(function (study, i){
                         return <Media key={i}>
-                            <Media left top href={study.url}>
-                                <Media object src = {study.logo} alt={study.institute}/>
+                            <Media left top className="education-img-div" href={study.url} >
+                                <Media object className="education-img" src = {images("./"+study.logo)} alt={study.institute}/>
                             </Media>
                             <Media body>
                                 <Media heading>
@@ -30,9 +38,13 @@ class Education extends React.Component{
                                         {
                                             "key": "Duration", 
                                             "value": study.durationInYears + " year(s)"
+                                        },
+                                        {
+                                            "key": "GPA",
+                                            "value": study.gpa
                                         }
                                     ].map(function (object, i){
-                                        return <div>
+                                        return <div key={i}>
                                             <Row>
                                                 <Col className="formLabel">{object.key}:</Col>
                                             </Row>
@@ -51,7 +63,7 @@ class Education extends React.Component{
             <br/>
             <Row>
                 <Col>
-                    <h4>Certifications:</h4>
+                    <h4>Certifications</h4>
                     <hr/>
                     {profile.certifications.map(function (cert, i){
                         const verification = cert.verificationLink ? 
@@ -61,8 +73,8 @@ class Education extends React.Component{
                             </Col>
                         </Row> : "";
                         return <Media key={i}>
-                            <Media left top href={cert.url}>
-                                <Media object src={cert.logo} alt = {cert.title}/>
+                            <Media className="cert-img-div" left top href={cert.url}>
+                                <Media className="cert-img" object src={images("./" + cert.logo)} alt = {cert.title}/>
                             </Media>
                             <Media body>
                                 <Media heading>

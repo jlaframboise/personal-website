@@ -1,21 +1,32 @@
 {
     "title": "AI and Math at Queen's Computing",
     "summary": "I am a computing student focused on using artificial intelligence to solve high-value problems. Through experience in machine learning, data science, and software development, I aim to create exciting and deeply impactful projects. ",
+
     "studies": [
         {
             "institute": "Queen's University",
-            "logo":"https://www.queensu.ca/sites/default/files/assets/pages/QueensLogo_colour.jpg",
+            "logo":"queens-logo.jpg",
             "url": "https://www.queensu.ca/",
             "title": "Bachelor of Computing, Focus in AI, Minor in Math",
+            "durationInYears": "4 + internship year",
+            "graduationYear": "2023",
+            "gpa": "4.29 / 4.3"
+        },
+	{
+            "institute": "Holy Cross Catholic Secondary School",
+            "logo":"hc-logo.png",
+            "url": "https://www.alcdsb.on.ca/School/hcss/",
+            "title": "Ontario Secondary School Diploma",
             "durationInYears": "4",
-            "graduationYear": "2022",
-            "gpa": "4.3"
+            "graduationYear": "2018",
+            "gpa": "99%"
         }
+	
     ],
 
     "certifications":[
         {
-            "logo": "https://media.licdn.com/dms/image/C4E0BAQGt72dvhq4yRA/company-logo_100_100/0?e=1582761600&v=beta&t=hhEVzn1G8ccZ7StCINkJ1grKyJoOeU1ebAe_LRZ_Xtw",
+            "logo": "MichiganLogo.jpg",
             "url": "https://www.coursera.org/account/accomplishments/verify/PEFL2U3RAXGX",
             "title": "Applied Plotting, Charting & Data Representation in Python by University of Michigan",
             "issuer": "Coursera",
@@ -23,7 +34,7 @@
             "verificationLink": "https://www.coursera.org/account/accomplishments/verify/PEFL2U3RAXGX"
         },
         {
-            "logo": "https://media.licdn.com/dms/image/C4E0BAQGt72dvhq4yRA/company-logo_100_100/0?e=1582761600&v=beta&t=hhEVzn1G8ccZ7StCINkJ1grKyJoOeU1ebAe_LRZ_Xtw",
+            "logo": "MichiganLogo.jpg",
             "url": "https://www.coursera.org/account/accomplishments/verify/T3NG9222VAP4",
             "title": "Introduction to Data Science by University of Michigan",
             "issuer": "Coursera",
@@ -31,7 +42,7 @@
             "verificationLink": "https://www.coursera.org/account/accomplishments/verify/T3NG9222VAP4"
         },
         {
-            "logo": "https://media.licdn.com/dms/image/C4E0BAQGt72dvhq4yRA/company-logo_100_100/0?e=1582761600&v=beta&t=hhEVzn1G8ccZ7StCINkJ1grKyJoOeU1ebAe_LRZ_Xtw",
+            "logo": "Stanford_Coursera_Logo.jpg",
             "url": "https://www.coursera.org/account/accomplishments/verify/47RZ9Q72EPHF?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate",
             "title": "Machine Learning by Stanford University",
             "issuer": "Coursera",
@@ -42,20 +53,60 @@
     ],
 
     "awards": [
+	{
+            "awardName": "Queen's Appeal Undergraduate Scholarship",
+            "date": "2020-12",
+            "issuer": "Queen's University",
+            "description": "Awarded on the recommendation of the Awards Committee of the Faculty of Arts and Science to students with high academic standing. ",
+            "link": null
+
+        },
         {
-            "awardName": "Dean's Honour List with Distinction",
+            "awardName": "Dean's Honour List with Distinction - Second Year",
+            "date": "2020-10",
+            "issuer": "Queen's University",
+            "description": "Awarded to the top 3% of students in Queen's Science or Computing by cumulative GPA. ",
+            "link": null
+
+        },
+	{
+            "awardName": "Dean's Honour List with Distinction - First Year",
             "date": "2019-10",
             "issuer": "Queen's University",
             "description": "Awarded to the top 3% of students in Queen's Science or Computing by cumulative GPA. ",
             "link": null
 
         },
+	{
+            "awardName": "Dean's Special Award",
+            "date": "2019-11",
+            "issuer": "Queen's University",
+            "description": "Awarded on the basis of academic excellence to students entering second, third, or fourth year in the Faculty of Arts and Science. ",
+            "link": null
+
+        },
+	{
+            "awardName": "Robert Bruce Scholarship",
+            "date": "2019-11",
+            "issuer": "Queen's University",
+            "description": "Awarded to the top 2 highest results in first year exams in Queen's Arts and Science. ",
+            "link": null
+
+        },
 
         {
-            "awardName": "George Thomas Warren Scholarship in Computinng Science",
+            "awardName": "George Thomas Warren Scholarship in Computing Science",
             "date": "2019-8",
             "issuer": "Queen's Computing",
             "description": "Awarded to second year student(s) with the top GPA in the Queen's School of Computing.",
+            "link": null
+
+        }, 
+	{
+            "awardName": "Principal's Scholarship",
+            "date": "2018-8",
+            "issuer": "Queen's Computing",
+            "description": "Entrance scholarship for Queen's University for a high school average greater than 95%. ",
             "link": null
 
         }, 
@@ -109,8 +160,48 @@
 
     "experiences": [
         {
+            "companyName": "Kinaxis",
+            "logo": "kinaxis-logo.svg.png",
+            "logo_small": "k-logo.jpg",
+            "url": "https://www.kinaxis.com/",
+            "roles": [
+                {
+                    "title": "Machine Learning Developer Intern",
+                    "description": "Do lotsa research and stuf and stuff and stufff and I'll replace this. ",
+                    "bullets": [
+                        "Applying machine learning techniques to solve problems.",
+                        "Working to develop new products on the Machine Learning Team."
+                    ],
+                    "startDate": "2021-05",
+                    "endDate": "2021-08",
+                    "currentJob": true,
+                    "location": "Toronto, Ontario"
+                }
+            ]
+        },
+        {
+            "companyName": "Validere",
+            "logo": "val-icon.png",
+            "url": "https://validere.com/",
+            "roles": [
+                {
+                    "title": "Data Scientist Intern",
+                    "description": "Do lotsa research and stuf and stuff and stufff and I'll replace this. ",
+                    "bullets": [
+                        "Developed a Python based automated client data ingress pipeline, improving consultant time efficiency by 1.5 full time employee equivalents, facilitating a strategic account scaling by 3x in value.",
+                        "Visualized and prototyped a volume alerting toolkit with Pandas that was deployed on 5 gas plants for consultants to rapidly identify irregular flows.",
+                        "Developed a scalable and model-agnostic object-oriented toolkit to forecast the quality of oil and gas, improving mid-month gas plant balance accuracy."
+                    ],
+                    "startDate": "2020-05",
+                    "endDate": "2020-08",
+                    "currentJob": false,
+                    "location": "Toronto, Ontario"
+                }
+            ]
+        },
+        {
             "companyName": "The Perk Lab, Queen's School of Computing",
-            "logo": "https://pbs.twimg.com/profile_images/1126559831974907904/00H6LDgM_400x400.png",
+            "logo": "perk-icon.png",
             "url": "http://perk.cs.queensu.ca/",
             "roles": [
                 {
@@ -124,14 +215,16 @@
                         "Presented at SPIE 2019 in San Diego, Inquiry at Queen's 2019, CSearch 2019, and the Imaging Network of Ontario 2019."
                     ],
                     "startDate": "2018-04",
-                    "currentJob": true,
+                    "endDate": "2020-04",
+                    "currentJob": false,
                     "location": "Kingston, Ontario"
                 },
                 {
                     "title": "Outreach Manager",
                     "description": "Managing the Perk Lab's outreach presence and coordinating with academic, government and industry visitors. ",
                     "startDate": "2019-04",
-                    "currentJob": true,
+                    "endDate": "2020-04",
+                    "currentJob": false,
                     "location": "Kingston, Ontario"
                 }
             ]
@@ -139,21 +232,48 @@
 
         {
             "companyName": "QMIND- Queen's University AI Hub",
-            "logo": "https://qmind.ca/wp-content/uploads/2019/08/qmindlogo-copy.png",
+            "logo": "qmind-icon.png",
             "url": "https://qmind.ca/",
             "roles": [
                 {
+                    "title": "Director of Research",
+                    "description": "I am leading a team of five to develop a robotic computer vision system to map images to path traversability with K-Means clustering on IMU data, and neural networks on image data through ROS (Robot Operating System). ",
+                    "bullets":[
+                        "Guided and supported 5 teams of 4-5 students through exciting projects in robotics and computer vision. ",
+                        "Coordinated the 2021 Proceedings of the Canadian Undergraduate Conference on AI, and guided 20+ teams of 4-5 members to write technical papers. ",
+                        "Expanded QMIND's hardware library with Intel RealSense depth cameras, and upgraded robots to ROS2. "
+                    ],
+                    "startDate": "2020-04",
+                    "endDate": "2021-04",
+                    "currentJob": false,
+                    "location": "Kingston, Ontario"
+                },
+                {
                     "title": "AI Team Lead",
                     "description": "I am leading a team of five to develop a robotic computer vision system to map images to path traversability with K-Means clustering on IMU data, and neural networks on image data through ROS (Robot Operating System). ",
+                    "bullets":[
+                        "I led a team of 5 to develop an autonomous pothole avoidance system with the Turtlebot3 Waffle Pi and the Robot Operating System. ",
+                        "Developed a CNN to identify if a pothole was in frame with 97.9% accuracy.",
+                        "Developed a CNN to localize the pothole in frame with a RMSE of 0.41 pixels.",
+                        "Used PCA and other techniques to visualize the robot's sensor data.",
+                        "Used linear and non-linear methods of terrain classification from inertial measurement data."
+                    ],
                     "startDate": "2019-09",
-                    "currentJob": true,
+                    "endDate": "2020-04",
+                    "currentJob": false,
                     "location": "Kingston, Ontario"
                 },
                 {
                     "title": "AI Engineer",
                     "description": "Predicted house valuations within 20% using a CNN on Google Street View and satellite images, and a multi-layer perceptron on point of interest data. Utilized APIs on the Google Cloud for address lookup and image retrieval.",
+                    "bullets": [
+                        "Predicted house valuations within 20% using a CNN on Google Street View and satellite images, and a multi-layer perceptron on point of interest data. ",
+                        "Utilized APIs on the Google Cloud for address lookup and image retrieval.",
+                        "My team of four partnered with Co-Operators and presented at the Canadian Undergraduate Conference on AI 2019."
+                    ],
                     "startDate": "2018-09",
-                    "endDate" : "2019-05",
+                    "endDate" : "2019-04",
+                    "currentJob": false,
                     "location": "Kingston, Ontario"
                 }
             ]
@@ -161,14 +281,15 @@
 
         {
             "companyName": "QWEB - Queen's Web Development Team",
-            "logo": "https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/41550025_718959665124189_6490656673382793216_n.png?_nc_cat=108&_nc_ohc=hPEqKDOJBKEAQmHNgwv7TyQWN5jcKukCfBCrmZEE4qeSLsPtCwIhAeH2A&_nc_ht=scontent-yyz1-1.xx&oh=d8194b521194883cdf90bd72a7b0391e&oe=5E79C0AA",
+            "logo": "qweb-icon.png",
             "url": "https://www.facebook.com/queensuweb/?__tn__=kC-R&eid=ARDfD2Vxm-AKoTB2efEXnrjLxyc0SuVIQvEvomkcu2pzzK-nTy_CzM-YCMgHQEpAJ77Yp1I90Jjl4YKn&hc_ref=ARTJI79tOrGETk6UpFm3VIyOW9BMOQmg73RgMqNwbD4CMbOb6bb4t4DPMhF_k-_WFWI&__xts__[0]=68.ARC7mA8vXtzNq1ZKroPNB7zqDKTcle0kUD8hjzGFlk_3uxC_lhFAUBxobHG3c2N9l48vSvXLsFlwCI_iIhWHTcOsxFU6GFmgLjyVqPr6Wrd-NxmHV6uLqE6xvlscnrzhD9bfzlWkijlOg09hx1csUUnTxAnt9eN0T52fN2OiGo0zjySlr8VyKxPO63TwJb5Qb1urNHdnVVRZ1shEvtfEf0LES6WqS4Zeb9nrzaZiVVzYskv5Yz_EFpGQw08JeW7Y2ZE18kCTUYF9",
             "roles": [
                 {
                     "title": "Web Developer",
                     "description": "Working in HTML, CSS, JavaScript, Node.Js, React Js, and MongoDB.",
                     "startDate": "2019-08",
-                    "currentJob": true,
+                    "endDate": "2020-04",
+                    "currentJob": false,
                     "location": "Kingston, Ontario"
                 }
             ]
@@ -176,12 +297,12 @@
 
         {
             "companyName": "QBIT - Queen's Biomedical Innovation Team",
-            "logo": "https://static.wixstatic.com/media/8a0056_e71daec8a1b444648d984dd4a70881dd~mv2.png/v1/fill/w_115,h_128,al_c,q_80,usm_0.66_1.00_0.01/8a0056_e71daec8a1b444648d984dd4a70881dd~mv2.webp",
+            "logo": "qbitLogo.jpg",
             "url": "https://www.qbitqueensu.com/",
             "roles": [
                 {
                     "title": "Software Team Engineer",
-                    "description": "Developement towards a low cost electrochemical impedance spectroscopy unit for detection of skin diseases.",
+                    "description": "Development towards a low cost electrochemical impedance spectroscopy unit for detection of skin diseases.",
                     "startDate": "2018-09",
                     "endDate" : "2019-05",
                     "location": "Kingston, Ontario"
@@ -195,8 +316,13 @@
             "projectName": "Robotic Computer Vision for Traversability",
             "role": "Team Lead",
             "org": "QMIND - Queen's AI Hub",
+            "logo": "turtlebotPi.jpg",
             "bullets": [
-                "I am leading a team of five to develop a robotic computer vision system to map images to path traversability with K-Means clustering on IMU data, and neural networks on image data through ROS (Robot Operating System). "
+                "I led a team of 5 to develop an autonomous pothole avoidance system with the Turtlebot3 Waffle Pi and the Robot Operating System. ",
+                "Developed a CNN to identify if a pothole was in frame with 97.9% accuracy.",
+                "Developed a CNN to localize the pothole in frame with a RMSE of 0.41 pixels.",
+                "Used PCA and other techniques to visualize the robot's sensor data.",
+                "Used linear and non-linear methods of terrain classification from inertial measurement data."
             ],
             "tools": [
                 "Python",
@@ -205,8 +331,31 @@
                 "Pandas",
                 "machine learning",
                 "neural networks",
-                "RNN",
-                "clustering"
+                "CNN",
+                "clustering",
+                "Linux",
+                "Robot Operating System"
+            ]
+        },
+
+        {
+            "projectName": "Surgical Video Classification",
+            "role": "",
+            "org": "The Perk Lab",
+            "logo": "3DSlicerLogo.png",
+            "bullets": [
+                "Automatically annotated surgical video with 98% accuracy using convolutional neural networks in Keras at 30fps.",
+                "Implemented as an extension on the open source 3D Slicer platform.",
+                "Published in SPIE Medical Imaging 2020."
+            ],
+            "tools": [
+                "Python",
+                "Jupyter", 
+                "Keras",
+                "machine learning",
+                "deep learning",
+                "CNN",
+                "3D Slicer"
             ]
         },
 
@@ -214,6 +363,7 @@
             "projectName": "Google Street View Appraiser",
             "role": "AI Design Team Member",
             "org": "QMIND - Queen's AI Hub",
+            "logo": "house-graph.jpg",
             "bullets": [
                 "Predicted house valuations within 20% using a CNN on Google Street View and satellite images, and a multi-layer perceptron on point of interest data. ",
                 "Utilized APIs on the Google Cloud for address lookup and image retrieval.",
@@ -231,27 +381,13 @@
         },
 
         {
-            "projectName": "Encrypted Image Messenger",
-            "role": "Individual",
-            "org": "",
-            "bullets": [
-                "Hides messages in images by modifying RGB values with the Python Image Library. Socket programming is used for wireless communication, and TkInter is used for the graphical user interface."
-            ],
-            "tools": [
-                "Python",
-                "Pillow",
-                "PIL",
-                "socket programming",
-                "TkInter"
-            ]
-        },
-
-        {
             "projectName": "Spoiler Blocking Chrome Extension",
             "role": "",
             "org": "QHacks Hackathon",
+            "logo": "GUI.png",
             "bullets": [
-                "We developed a Chrome web extension in JavaScript to blur spoilers on web pages, using keywords I webscraped from movie databases with custom Standard Library APIs I wrote in Python."
+                "We developed a Chrome web extension in JavaScript to blur spoilers on web pages by keyword.", 
+                "I webscraped keywords from movie databases with custom Standard Library APIs I wrote in Python."
             ],
             "tools": [
                 "JavaScript",
@@ -267,34 +403,38 @@
             "projectName": "Medical Abnormalities Explorer",
             "role": "Individual",
             "org": "",
+            "logo": "tree.png",
             "bullets": [
-                "Developed a Java application to parse the Human Phenotype Ontology, creating a tree structure which is recursively traversed to explore phenotypes."
+                "Developed a Java application to parse the Human Phenotype Ontology.", 
+                "Creating a tree structure which is recursively traversed to explore phenotypes."
             ],
             "tools": [
                 "Java",
-                "Data structures",
+                "data structures",
                 "tree structure"
             ]
         },
 
         {
-            "projectName": "Surgical Video Classification",
-            "role": "",
-            "org": "The Perk Lab",
+            "projectName": "Encrypted Image Messenger",
+            "role": "Individual",
+            "org": "",
+            "logo": "encryptedeye.png",
             "bullets": [
-                "Automatically annotated surgical video with 98% accuracy using convolutional neural networks in Keras at 30fps, on the open source 3D Slicer platform.",
-                "Accepted for publication in SPIE 2020. "
+                "Hides messages in images by modifying RGB values with the Python Image Library.",
+                "Socket programming is used for client-server wireless communication.", 
+                "TkInter is used for the graphical user interface."
             ],
             "tools": [
                 "Python",
-                "Jupyter", 
-                "Keras",
-                "machine learning",
-                "deep learning",
-                "CNN",
-                "3D Slicer"
+                "Pillow",
+                "PIL",
+                "socket programming",
+                "TkInter"
             ]
         }
+
+        
     ],
 
     "research": [
