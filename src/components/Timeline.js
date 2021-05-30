@@ -15,7 +15,7 @@ const Timeline = () =>{
             <Sort by="date">
                 {/* Jobs */}
                 {profile.experiences.map((job)=>{
-                    const imagePath = "./" + job.logo;
+                    const imagePath = job.logo_small ? "./" + job.logo_small : "./" + job.logo;
                     const logo = images(imagePath)
                     return (
                         job.roles.map((role)=>{

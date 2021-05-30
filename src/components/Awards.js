@@ -12,7 +12,7 @@ class Awards extends React.Component{
             <Container>
                     {profile.awards.map(function (award, i){
                         moment.locale('en');
-
+                        window.scrollTo(0,0);
                         return (
                             <div key={i}>
                                 {/* <Media>

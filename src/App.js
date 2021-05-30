@@ -36,28 +36,6 @@ class App extends React.Component{
         return <div className="">
             <TopBar toggleTab={this.toggleTab}/>
             <Container className="my-auto d-flex justify-center " style={{justify: "center", minHeight: "80vh", width: "100vw"}} >
-                {/* <Nav tabs>
-                    <NavItem>
-                        <NavLink className={classnames({active: this.state.activeTab === '1'})} onClick={() => {this.toggle('1');}}>
-                            Experience
-                        </NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink className={classnames({active: this.state.activeTab === '2'})} onClick={()=> {this.toggle('2');}}>
-                            Education
-                        </NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink className={classnames({active: this.state.activeTab === '3'})} onClick={()=> {this.toggle('3');}}>
-                            Projects
-                        </NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink className={classnames({active: this.state.activeTab === '4'})} onClick={()=> {this.toggle('4');}}>
-                            Awards
-                        </NavLink>
-                    </NavItem>
-                </Nav> */}
             
 
                 <TabContent className="full-width my-auto" activeTab={this.state.activeTab} style={{align: "center"}}>

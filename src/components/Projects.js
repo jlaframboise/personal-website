@@ -16,8 +16,8 @@ const Project = function(project, i){
     return (
         <div key={i}>
         <Media>
-            <Media left top href={project.url}>
-                <Media object src={projectLogo} alt={project.projectName}/>
+            <Media className="project-img-div" left top href={project.url}>
+                <Media object className="project-img" src={projectLogo} alt={project.projectName}/>
             </Media>
             <Media body>
                 <Media heading>
@@ -45,6 +45,9 @@ const Project = function(project, i){
 
 class Projects extends React.Component{
     render(){
+
+        window.scrollTo(0,0);
+
         return(
             <Container>
                 <Row>

@@ -10,13 +10,16 @@ const images = require.context("../../public/images", true)
 
 class Education extends React.Component{
     render(){
+
+        window.scrollTo(0,0);
+
         return <Container>
             <Row>
                 <Col>
                     {profile.studies.map(function (study, i){
                         return <Media key={i}>
-                            <Media left top href={study.url}>
-                                <Media object src = {images("./"+study.logo)} alt={study.institute}/>
+                            <Media left top className="education-img-div" href={study.url} >
+                                <Media object className="education-img" src = {images("./"+study.logo)} alt={study.institute}/>
                             </Media>
                             <Media body>
                                 <Media heading>
@@ -70,8 +73,8 @@ class Education extends React.Component{
                             </Col>
                         </Row> : "";
                         return <Media key={i}>
-                            <Media left top href={cert.url}>
-                                <Media object src={images("./" + cert.logo)} alt = {cert.title}/>
+                            <Media className="cert-img-div" left top href={cert.url}>
+                                <Media className="cert-img" object src={images("./" + cert.logo)} alt = {cert.title}/>
                             </Media>
                             <Media body>
                                 <Media heading>

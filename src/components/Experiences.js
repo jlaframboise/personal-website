@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {Container, Row, Col} from "reactstrap";
 import profile from "../profile";
 import moment from "moment";
@@ -27,15 +27,15 @@ const Experience = function(experience, i){
             const startDate = moment(role.startDate);
             const timeEnd = moment(role.currentJob ? new Date(): new Date(role.endDate));
             const duration = moment.duration(timeEnd.diff(startDate));
-            return Number(cnt) + Number(duration.asMonths().toPrecision(1));
+            return Number(cnt) + Number(duration.asMonths().toPrecision(1)) +1;
         }, 0);
 
 
         return (
             <div key={i}>
                 <Media>
-                    <Media left top href={experience.url}>
-                        <Media object src={companyLogo} alt={experience.companyName} alt={"images/" + experience.logo}/>
+                    <Media left top className="job-img-div" href={experience.url}>
+                        <Media object className="job-img" src={companyLogo} alt={experience.companyName} alt={"images/" + experience.logo}/>
                     </Media>
                     <Media body>
                         <Media heading>
@@ -46,7 +46,7 @@ const Experience = function(experience, i){
                         {experience.roles.map(function (role, i){
                             const startDate = moment(role.startDate);
                             const timeEnd = moment(role.currentJob ? new Date() : new Date(role.endDate));
-                            const duration = Number(moment.duration(timeEnd.diff(startDate)).asMonths().toPrecision(1));
+                            const duration = 1+ Number(moment.duration(timeEnd.diff(startDate)).asMonths().toPrecision(1));
 
                             return(
                                 <div key={i}>
@@ -77,7 +77,12 @@ const Experience = function(experience, i){
 
 class Experiences extends React.Component{
     
+    
+
     render(){
+
+        window.scrollTo(0,0);
+
         return(
             <Container>
                 

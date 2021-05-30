@@ -8,7 +8,7 @@
             "logo":"queens-logo.jpg",
             "url": "https://www.queensu.ca/",
             "title": "Bachelor of Computing, Focus in AI, Minor in Math",
-            "durationInYears": "4 + internship",
+            "durationInYears": "4 + internship year",
             "graduationYear": "2023",
             "gpa": "4.29 / 4.3"
         },
@@ -159,6 +159,26 @@
     ],
 
     "experiences": [
+        {
+            "companyName": "Kinaxis",
+            "logo": "kinaxis-logo.svg.png",
+            "logo_small": "k-logo.jpg",
+            "url": "https://www.kinaxis.com/",
+            "roles": [
+                {
+                    "title": "Machine Learning Developer Intern",
+                    "description": "Do lotsa research and stuf and stuff and stufff and I'll replace this. ",
+                    "bullets": [
+                        "Applying machine learning techniques to solve problems.",
+                        "Working to develop new products on the Machine Learning Team."
+                    ],
+                    "startDate": "2021-05",
+                    "endDate": "2021-08",
+                    "currentJob": true,
+                    "location": "Toronto, Ontario"
+                }
+            ]
+        },
         {
             "companyName": "Validere",
             "logo": "val-icon.png",
