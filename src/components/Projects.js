@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Row, Col} from "reactstrap";
+import {Container, Row, Col, Button} from "reactstrap";
 import profile from "../profile";
 import moment from "moment";
 import {Media} from "reactstrap";
@@ -23,21 +23,29 @@ const Project = function(project, i){
                 <Media heading>
                     <a href={project.url}>{project.projectName}</a>
                 </Media>
-                    <h4>{project.role}</h4>
-                    <span className="projectOrg">{project.org}</span>
-                    <ul>
-                        {project.bullets ? project.bullets.map(function(bullet, i){
-                            return <li key={i}>{bullet}</li>
-                        }) : ""}
-                    </ul>
+                <h4>{project.role}</h4>
+                <span className="projectOrg">{project.org}</span>
                     
-                    <p>{project.tools.join(', ')}</p>
-                    
-                    {!project.bullets ? 
-                        <p className="projectDescription">
-                            {project.description}
-                        </p>  : ""}
-        </Media>
+                <ul>
+                    {project.bullets ? project.bullets.map(function(bullet, i){
+                        return <li key={i}>{bullet}</li>
+                    }) : ""}
+                </ul>
+
+                {
+                        project.github ?
+                        <Button href={project.github}>GitHub</Button> :
+                        ""
+                    }
+                
+                <p>{project.tools.join(', ')}</p>
+                
+                {!project.bullets ? 
+                    <p className="projectDescription">
+                        {project.description}
+                    </p>  : ""}
+
+            </Media>
         </Media>
     </div>
     )

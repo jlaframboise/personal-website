@@ -317,6 +317,7 @@
             "role": "Team Lead",
             "org": "QMIND - Queen's AI Hub",
             "logo": "turtlebotPi.jpg",
+            "github": "https://github.com/jlaframboise/Robo-Traverse",
             "bullets": [
                 "I led a team of 5 to develop an autonomous pothole avoidance system with the Turtlebot3 Waffle Pi and the Robot Operating System. ",
                 "Developed a CNN to identify if a pothole was in frame with 97.9% accuracy.",
@@ -343,6 +344,7 @@
             "role": "",
             "org": "The Perk Lab",
             "logo": "3DSlicerLogo.png",
+            "github": "https://github.com/SlicerIGT/aigt/tree/master/HerniaAnnotation",
             "bullets": [
                 "Automatically annotated surgical video with 98% accuracy using convolutional neural networks in Keras at 30fps.",
                 "Implemented as an extension on the open source 3D Slicer platform.",
@@ -385,6 +387,7 @@
             "role": "",
             "org": "QHacks Hackathon",
             "logo": "GUI.png",
+            "github": "https://github.com/jlaframboise/qhacks",
             "bullets": [
                 "We developed a Chrome web extension in JavaScript to blur spoilers on web pages by keyword.", 
                 "I webscraped keywords from movie databases with custom Standard Library APIs I wrote in Python."
@@ -404,6 +407,7 @@
             "role": "Individual",
             "org": "",
             "logo": "tree.png",
+            "github": "https://github.com/jlaframboise/Medical-Abnormalities-Explorer",
             "bullets": [
                 "Developed a Java application to parse the Human Phenotype Ontology.", 
                 "Creating a tree structure which is recursively traversed to explore phenotypes."
@@ -420,6 +424,7 @@
             "role": "Individual",
             "org": "",
             "logo": "encryptedeye.png",
+            "github": "https://github.com/jlaframboise/ImageMessenger",
             "bullets": [
                 "Hides messages in images by modifying RGB values with the Python Image Library.",
                 "Socket programming is used for client-server wireless communication.", 
