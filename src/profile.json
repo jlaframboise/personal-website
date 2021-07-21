@@ -160,6 +160,25 @@
 
     "experiences": [
         {
+            "companyName": "IBM Cloud",
+            "logo": "320px-IBM_logo.svg.png",
+            "logo_small": "IBM_logo_square.svg.png",
+            "url": "https://www.ibm.com/cloud",
+            "roles": [
+                {
+                    "title": "Incoming Software Developer Intern",
+                    "description": "Do lotsa research and stuf and stuff and stufff and I'll replace this. ",
+                    "bullets": [
+                        "Developing front-end and back-end systems for continuous integration and continuous delivery. "
+                    ],
+                    "startDate": "2021-09",
+                    "endDate": "2021-12",
+                    "currentJob": false,
+                    "location": "Ottawa, Ontario"
+                }
+            ]
+        },
+        {
             "companyName": "Kinaxis",
             "logo": "kinaxis-logo.svg.png",
             "logo_small": "k-logo.jpg",
@@ -175,7 +194,7 @@
                     "startDate": "2021-05",
                     "endDate": "2021-08",
                     "currentJob": true,
-                    "location": "Toronto, Ontario"
+                    "location": "Ottawa, Ontario"
                 }
             ]
         },
