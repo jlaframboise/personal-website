@@ -3,6 +3,7 @@ import {Container, TabContent, TabPane} from 'reactstrap';
 import Experiences from './components/Experiences';
 import Education from './components/Education';
 import Projects from './components/Projects';
+import Research from './components/Research';
 import Awards from './components/Awards';
 import TopBar from './components/TopBar';
 import Footer from './components/Footer';
@@ -52,9 +53,12 @@ class App extends React.Component{
                         <Projects/>
                     </TabPane>
                     <TabPane tabId="4">
-                        <Awards/>
+                        <Research/>
                     </TabPane>
                     <TabPane tabId="5">
+                        <Awards/>
+                    </TabPane>
+                    <TabPane tabId="6">
                         <Timeline/>
                     </TabPane>
                 </TabContent>

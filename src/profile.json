@@ -423,8 +423,8 @@
 
         {
             "projectName": "Medical Abnormalities Explorer",
-            "role": "Individual",
-            "org": "",
+            "role": "",
+            "org": "Individual",
             "logo": "tree.png",
             "github": "https://github.com/jlaframboise/Medical-Abnormalities-Explorer",
             "bullets": [
@@ -440,8 +440,8 @@
 
         {
             "projectName": "Encrypted Image Messenger",
-            "role": "Individual",
-            "org": "",
+            "role": "",
+            "org": "Individual",
             "logo": "encryptedeye.png",
             "github": "https://github.com/jlaframboise/ImageMessenger",
             "bullets": [
@@ -463,21 +463,47 @@
 
     "research": [
         {
-            "paperTitle": "Open source platform for automated collection of training data to support video-based feedback in surgical simulators",
+            "paperTitle": "Open-source platform for automated collection of training data to support video-based feedback in surgical simulators",
             "authors": ["Jacob Laframboise", "Tamas Ungi", "Kyle Sunderland", "Boris Zevin", "Gabor Fichtinger"],
-            "paperType": "Paper Accepted",
+            "paperType": "Paper published",
+            "authorship": 1,
             "pres": "Oral presentation",
             "location": "Houston, Texas",
-            "citation": "Jacob Laframboise, Tamas Ungi, et al. \"Open source platform for automated collection of training data to support video-based feedback in surgical simulators\"." 
+            "citation": "Jacob Laframboise, Tamas Ungi, Kyle Sunderland, Boris Zevin, and Gabor Fichtinger \"Open-source platform for automated collection of training data to support video-based feedback in surgical simulators\", Proc. SPIE 11315, Medical Imaging 2020: Image-Guided Procedures, Robotic Interventions, and Modeling, 1131517 (16 March 2020); https://doi.org/10.1117/12.2549878",
+            "url": "https://doi.org/10.1117/12.2549878",
+            "date": "2020-03-16",
+            "publisher": "SPIE Medical Imaging",
+            "logo": "3DSlicerLogo.png"
+
         },
 
         {
             "paperTitle": "Analyzing the curvature of the colon in different patient positions",
             "authors": ["Jacob Laframboise", "Tamas Ungi", "Andras Lasso", "Mark Asselin", "Matthew S. Holden", "Pearl Tan", "Lawrence Hookey", "Gabor Fichtinger"],
             "paperType": "Paper published",
+            "authorship": 1,
             "pres": "Poster presentation",
             "location": "San Diego, California",
-            "citation": "Jacob Laframboise, Tamas Ungi, Andras Lasso, Mark Asselin, Matthew S. Holden, Pearl Tan, Lawrence Hookey, and Gabor Fichtinger \"Analyzing the curvature of the colon in different patient positions\", Proc. SPIE 10951, Medical Imaging 2019: Image-Guided Procedures, Robotic Interventions, and Modeling, 109512F (8 March 2019); https://doi.org/10.1117/12.2512455" 
+            "url": "https://doi.org/10.1117/12.2512455",
+            "date": "2019-03-08",
+            "citation": "Jacob Laframboise, Tamas Ungi, Andras Lasso, Mark Asselin, Matthew S. Holden, Pearl Tan, Lawrence Hookey, and Gabor Fichtinger \"Analyzing the curvature of the colon in different patient positions\", Proc. SPIE 10951, Medical Imaging 2019: Image-Guided Procedures, Robotic Interventions, and Modeling, 109512F (8 March 2019); https://doi.org/10.1117/12.2512455",
+            "publisher": "SPIE Medical Imaging",
+            "logo": "4Square.png"
+        },
+
+        {
+            "paperTitle": "Automated segmentation of computed tomography colonography images using a 3D U-Net",
+            "authors": ["Keiran Barr", "Jacob Laframboise", "Tamas Ungi", "Lawrence Hookey", "Gabor Fichtinger"],
+            "paperType": "Paper published",
+            "authorship": 2,
+            "pres": "Poster pres",
+            "location": "Houston, Texas",
+            "citation": "Keiran Barr, Jacob Laframboise, Tamas Ungi, Lawrence Hookey, and Gabor Fichtinger \"Automated segmentation of computed tomography colonography images using a 3D U-Net\", Proc. SPIE 11315, Medical Imaging 2020: Image-Guided Procedures, Robotic Interventions, and Modeling, 113152G (16 March 2020); https://doi.org/10.1117/12.2549749",
+            "url": "https://doi.org/10.1117/12.2549749",
+            "date": "2020-03-16",
+            "publisher": "SPIE Medical Imaging",
+            "logo": "colon.png"
+
         }
     ],
 

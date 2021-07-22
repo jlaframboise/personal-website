@@ -61,11 +61,16 @@ class TopBar extends React.Component{
                             </NavItem>
                             <NavItem>
                                 <NavLink onClick={() => {this.toggleTabAndClose('4');}}>
-                                    Awards
+                                    Research
                                 </NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink onClick={() => {this.toggleTabAndClose('5');}}>
+                                    Awards
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink onClick={() => {this.toggleTabAndClose('6');}}>
                                     Timeline View
                                 </NavLink>
                             </NavItem>
