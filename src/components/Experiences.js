@@ -53,23 +53,15 @@ const Experience = function(experience, i){
                         </Media>
 
                         {experience.roles.map(function (role, i){
-                            console.log(role.title)
-                            console.log(role.startDate)
-                            console.log(role.endDate)
                             const startDate = moment(role.startDate);
                             const endDate = moment(role.currentJob ? new Date() : new Date(role.endDate));
-                            if (role.title==="Director of Research"){
-                                console.log(startDate)
-                                console.log(endDate)
-                                console.log(Number(moment.duration(endDate.diff(startDate)).asMonths().toFixed(0)))
-                            }
                             
                             const duration = Number(moment.duration(endDate.diff(startDate)).asMonths().toFixed(0));
-
+                            const duration_text = duration>0 ? "(" + showDuration(duration) + ")" : ""
                             return(
                                 <div key={i}>
                                 <h5>{role.title}</h5>
-                                <span className="jobDuration">{startDate.format('MMM YYYY')} - {role.currentJob ? 'Present' : endDate.format('MMM YYYY')} ({showDuration(duration)})</span>
+                                <span className="jobDuration">{startDate.format('MMM YYYY')} - {role.currentJob ? 'Present' : endDate.format('MMM YYYY')} {duration_text}</span>
                                 <span className="jobLocation">{role.location}</span>
 
                                 <ul>
