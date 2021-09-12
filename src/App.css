@@ -67,6 +67,19 @@ div.media .media-heading .jobTotalDuration{
   border-radius: 10px;
 }
 
+.paper-img-div{
+  width: 15vmin;
+  margin-right: 10px;
+  margin-bottom: 7px;
+  margin-bottom: 7px;
+}
+
+.paper-img{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
 .job-img-div{
   width: 17vmin;
   margin-right: 10px;

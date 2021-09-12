@@ -142,7 +142,7 @@
             "awardName": "Duke of Edinburgh Gold Level Award",
             "date": "2017-9",
             "issuer": "Duke of Edinburgh",
-            "description": "I earned \"The world's leading youth achievement award\", through dedication to computer science, martial arts, tutoring, kayacking in Georgian Bay, and completing SHAD 2017. ",
+            "description": "I earned \"The world's leading youth achievement award\", through dedication to computer science, martial arts, tutoring, kayaking in Georgian Bay, and completing SHAD 2017. ",
             "link": null
 
         },
@@ -160,20 +160,20 @@
 
     "experiences": [
         {
-            "companyName": "IBM Cloud",
+            "companyName": "IBM",
             "logo": "320px-IBM_logo.svg.png",
             "logo_small": "IBM_logo_square.svg.png",
             "url": "https://www.ibm.com/cloud",
             "roles": [
                 {
-                    "title": "Incoming Software Developer Intern",
+                    "title": "Software Developer Intern",
                     "description": "Do lotsa research and stuf and stuff and stufff and I'll replace this. ",
                     "bullets": [
-                        "Developing front-end and back-end systems for continuous integration and continuous delivery. "
+                        "Developing front-end and back-end systems for continuous integration and continuous delivery on IBM Cloud. "
                     ],
-                    "startDate": "2021-09",
-                    "endDate": "2021-12",
-                    "currentJob": false,
+                    "startDate": "2021-09-01",
+                    "endDate": "Present",
+                    "currentJob": true,
                     "location": "Ottawa, Ontario"
                 }
             ]
@@ -188,12 +188,14 @@
                     "title": "Machine Learning Developer Intern",
                     "description": "Do lotsa research and stuf and stuff and stufff and I'll replace this. ",
                     "bullets": [
-                        "Using machine learning techniques to optimally allocate compute resources for supply chain planning.",
-                        "Improving operations research models with machine learning."
+                        "Developed a Python-based iterative machine learning optimization system for supply chain planning.",
+                        "Predicted performance of algorithms within 4.6% mean average error.",
+                        "Applied machine learning techniques to improve supply chain plans by 2.5%.",
+                        "Patent pending. "
                     ],
-                    "startDate": "2021-05",
-                    "endDate": "2021-08",
-                    "currentJob": true,
+                    "startDate": "2021-05-01",
+                    "endDate": "2021-08-31",
+                    "currentJob": false,
                     "location": "Ottawa, Ontario"
                 }
             ]
@@ -211,8 +213,8 @@
                         "Visualized and prototyped a volume alerting toolkit with Pandas that was deployed on 5 gas plants for consultants to rapidly identify irregular flows.",
                         "Developed a scalable and model-agnostic object-oriented toolkit to forecast the quality of oil and gas, improving mid-month gas plant balance accuracy."
                     ],
-                    "startDate": "2020-05",
-                    "endDate": "2020-08",
+                    "startDate": "2020-05-01",
+                    "endDate": "2020-08-31",
                     "currentJob": false,
                     "location": "Toronto, Ontario"
                 }
@@ -233,16 +235,16 @@
                         "Developed an augmented reality surgery training tool with Microsoft HoloLens to visualize hernia surgery in 3D. ",
                         "Presented at SPIE 2019 in San Diego, Inquiry at Queen's 2019, CSearch 2019, and the Imaging Network of Ontario 2019."
                     ],
-                    "startDate": "2018-04",
-                    "endDate": "2020-04",
+                    "startDate": "2018-05-01",
+                    "endDate": "2020-04-30",
                     "currentJob": false,
                     "location": "Kingston, Ontario"
                 },
                 {
                     "title": "Outreach Manager",
                     "description": "Managing the Perk Lab's outreach presence and coordinating with academic, government and industry visitors. ",
-                    "startDate": "2019-04",
-                    "endDate": "2020-04",
+                    "startDate": "2019-05-01",
+                    "endDate": "2020-04-30",
                     "currentJob": false,
                     "location": "Kingston, Ontario"
                 }
@@ -262,8 +264,8 @@
                         "Coordinated the 2021 Proceedings of the Canadian Undergraduate Conference on AI, and guided 20+ teams of 4-5 members to write technical papers. ",
                         "Expanded QMIND's hardware library with Intel RealSense depth cameras, and upgraded robots to ROS2. "
                     ],
-                    "startDate": "2020-04",
-                    "endDate": "2021-04",
+                    "startDate": "2020-04-01",
+                    "endDate": "2021-04-30",
                     "currentJob": false,
                     "location": "Kingston, Ontario"
                 },
@@ -277,8 +279,8 @@
                         "Used PCA and other techniques to visualize the robot's sensor data.",
                         "Used linear and non-linear methods of terrain classification from inertial measurement data."
                     ],
-                    "startDate": "2019-09",
-                    "endDate": "2020-04",
+                    "startDate": "2019-09-01",
+                    "endDate": "2020-04-30",
                     "currentJob": false,
                     "location": "Kingston, Ontario"
                 },
@@ -290,8 +292,8 @@
                         "Utilized APIs on the Google Cloud for address lookup and image retrieval.",
                         "My team of four partnered with Co-Operators and presented at the Canadian Undergraduate Conference on AI 2019."
                     ],
-                    "startDate": "2018-09",
-                    "endDate" : "2019-04",
+                    "startDate": "2018-09-01",
+                    "endDate" : "2019-04-30",
                     "currentJob": false,
                     "location": "Kingston, Ontario"
                 }
@@ -306,8 +308,8 @@
                 {
                     "title": "Web Developer",
                     "description": "Working in HTML, CSS, JavaScript, Node.Js, React Js, and MongoDB.",
-                    "startDate": "2019-08",
-                    "endDate": "2020-04",
+                    "startDate": "2019-09-01",
+                    "endDate": "2020-04-30",
                     "currentJob": false,
                     "location": "Kingston, Ontario"
                 }
@@ -322,8 +324,8 @@
                 {
                     "title": "Software Team Engineer",
                     "description": "Development towards a low cost electrochemical impedance spectroscopy unit for detection of skin diseases.",
-                    "startDate": "2018-09",
-                    "endDate" : "2019-05",
+                    "startDate": "2018-09-01",
+                    "endDate" : "2019-04-30",
                     "location": "Kingston, Ontario"
                 }
             ]
@@ -423,8 +425,8 @@
 
         {
             "projectName": "Medical Abnormalities Explorer",
-            "role": "Individual",
-            "org": "",
+            "role": "",
+            "org": "Individual",
             "logo": "tree.png",
             "github": "https://github.com/jlaframboise/Medical-Abnormalities-Explorer",
             "bullets": [
@@ -440,8 +442,8 @@
 
         {
             "projectName": "Encrypted Image Messenger",
-            "role": "Individual",
-            "org": "",
+            "role": "",
+            "org": "Individual",
             "logo": "encryptedeye.png",
             "github": "https://github.com/jlaframboise/ImageMessenger",
             "bullets": [
@@ -463,21 +465,47 @@
 
     "research": [
         {
-            "paperTitle": "Open source platform for automated collection of training data to support video-based feedback in surgical simulators",
+            "paperTitle": "Open-source platform for automated collection of training data to support video-based feedback in surgical simulators",
             "authors": ["Jacob Laframboise", "Tamas Ungi", "Kyle Sunderland", "Boris Zevin", "Gabor Fichtinger"],
-            "paperType": "Paper Accepted",
+            "paperType": "Paper published",
+            "authorship": 1,
             "pres": "Oral presentation",
             "location": "Houston, Texas",
-            "citation": "Jacob Laframboise, Tamas Ungi, et al. \"Open source platform for automated collection of training data to support video-based feedback in surgical simulators\"." 
+            "citation": "Jacob Laframboise, Tamas Ungi, Kyle Sunderland, Boris Zevin, and Gabor Fichtinger \"Open-source platform for automated collection of training data to support video-based feedback in surgical simulators\", Proc. SPIE 11315, Medical Imaging 2020: Image-Guided Procedures, Robotic Interventions, and Modeling, 1131517 (16 March 2020); https://doi.org/10.1117/12.2549878",
+            "url": "https://doi.org/10.1117/12.2549878",
+            "date": "2020-03-16",
+            "publisher": "SPIE Medical Imaging",
+            "logo": "3DSlicerLogo.png"
+
         },
 
         {
             "paperTitle": "Analyzing the curvature of the colon in different patient positions",
             "authors": ["Jacob Laframboise", "Tamas Ungi", "Andras Lasso", "Mark Asselin", "Matthew S. Holden", "Pearl Tan", "Lawrence Hookey", "Gabor Fichtinger"],
             "paperType": "Paper published",
+            "authorship": 1,
             "pres": "Poster presentation",
             "location": "San Diego, California",
-            "citation": "Jacob Laframboise, Tamas Ungi, Andras Lasso, Mark Asselin, Matthew S. Holden, Pearl Tan, Lawrence Hookey, and Gabor Fichtinger \"Analyzing the curvature of the colon in different patient positions\", Proc. SPIE 10951, Medical Imaging 2019: Image-Guided Procedures, Robotic Interventions, and Modeling, 109512F (8 March 2019); https://doi.org/10.1117/12.2512455" 
+            "url": "https://doi.org/10.1117/12.2512455",
+            "date": "2019-03-08",
+            "citation": "Jacob Laframboise, Tamas Ungi, Andras Lasso, Mark Asselin, Matthew S. Holden, Pearl Tan, Lawrence Hookey, and Gabor Fichtinger \"Analyzing the curvature of the colon in different patient positions\", Proc. SPIE 10951, Medical Imaging 2019: Image-Guided Procedures, Robotic Interventions, and Modeling, 109512F (8 March 2019); https://doi.org/10.1117/12.2512455",
+            "publisher": "SPIE Medical Imaging",
+            "logo": "4Square.png"
+        },
+
+        {
+            "paperTitle": "Automated segmentation of computed tomography colonography images using a 3D U-Net",
+            "authors": ["Keiran Barr", "Jacob Laframboise", "Tamas Ungi", "Lawrence Hookey", "Gabor Fichtinger"],
+            "paperType": "Paper published",
+            "authorship": 2,
+            "pres": "Poster pres",
+            "location": "Houston, Texas",
+            "citation": "Keiran Barr, Jacob Laframboise, Tamas Ungi, Lawrence Hookey, and Gabor Fichtinger \"Automated segmentation of computed tomography colonography images using a 3D U-Net\", Proc. SPIE 11315, Medical Imaging 2020: Image-Guided Procedures, Robotic Interventions, and Modeling, 113152G (16 March 2020); https://doi.org/10.1117/12.2549749",
+            "url": "https://doi.org/10.1117/12.2549749",
+            "date": "2020-03-16",
+            "publisher": "SPIE Medical Imaging",
+            "logo": "colon.png"
+
         }
     ],
 
