@@ -160,6 +160,25 @@
 
     "experiences": [
         {
+            "companyName": "Shopify",
+            "logo": "shopify_glyph3.png",
+            "logo_small": "shopify_glyph3.png",
+            "url": "https://www.shopify.ca/",
+            "roles": [
+                {
+                    "title": "Data Scientist Intern",
+                    "description": "Do lotsa research and stuf and stuff and stufff and I'll replace this. ",
+                    "bullets": [
+                        "Turning data into insights for merchants on the Commerce Intelligence Platform Capabilities Team."
+                    ],
+                    "startDate": "2022-01-10",
+                    "endDate": "Present",
+                    "currentJob": true,
+                    "location": "Remote, Everywhere"
+                }
+            ]
+        },
+        {
             "companyName": "IBM",
             "logo": "320px-IBM_logo.svg.png",
             "logo_small": "IBM_logo_square.svg.png",
@@ -169,11 +188,17 @@
                     "title": "Software Developer Intern",
                     "description": "Do lotsa research and stuf and stuff and stufff and I'll replace this. ",
                     "bullets": [
-                        "Developing front-end and back-end systems for continuous integration and continuous delivery on IBM Cloud. "
+                        "Developed a unified dashboard to integrate status information of the IBM Cloud Devops Pipeline Team's offerings.",
+                        "Developed frontend dashboard in JavaScript with React.js and the Carbon Design System.",
+                        "Created multiple Cloudant NoSQL databases to record current and historical status information.",
+                        "Developed a Node.js backend with Express to serve the dashboard.",
+                        "Developed a data collection pipeline which used Bash scripting to pull status information from servers.",
+                        "Used REST APIs to connect the backend, frontend, databases, and the data collection pipeline.",
+                        "Integrated this dashboard into a core service, and developed documentation to support maintenance and extensibility."
                     ],
                     "startDate": "2021-09-01",
-                    "endDate": "Present",
-                    "currentJob": true,
+                    "endDate": "2021-12-17",
+                    "currentJob": false,
                     "location": "Ottawa, Ontario"
                 }
             ]
