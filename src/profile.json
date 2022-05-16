@@ -160,6 +160,25 @@
 
     "experiences": [
         {
+            "companyName": "Amazon",
+            "logo": "Amazon_icon.svg.png",
+            "logo_small": "Amazon_icon.svg.png",
+            "url": "https://aws.amazon.com/",
+            "roles": [
+                {
+                    "title": "Software Developer Engineer Intern",
+                    "description": "Do lotsa research and stuf and stuff and stufff and I'll replace this. ",
+                    "bullets": [
+                        "Developing on the AWS Autoscaling Team."
+                    ],
+                    "startDate": "2022-05-09",
+                    "endDate": "Present",
+                    "currentJob": true,
+                    "location": "Vancouver, BC"
+                }
+            ]
+        },
+        {
             "companyName": "Shopify",
             "logo": "shopify_glyph3.png",
             "logo_small": "shopify_glyph3.png",
@@ -169,11 +188,12 @@
                     "title": "Data Scientist Intern",
                     "description": "Do lotsa research and stuf and stuff and stufff and I'll replace this. ",
                     "bullets": [
-                        "Turning data into insights for merchants on the Commerce Intelligence Platform Capabilities Team."
-                    ],
+                        "Developed a Python library for profiling queries against merchant data services using REST and GraphQL endpoints to accelerate API and data model development.",
+                        "Prototyped a cloud service using Flask, REST endpoints, a Google Cloud Storage bucket, and Kafka.",
+                        "Developed a dashboard with SQL and Mode for leadership to understand usage of data models." ],
                     "startDate": "2022-01-10",
-                    "endDate": "Present",
-                    "currentJob": true,
+                    "endDate": "2022-04-30",
+                    "currentJob": false,
                     "location": "Remote, Everywhere"
                 }
             ]
@@ -281,6 +301,17 @@
             "logo": "qmind-icon.png",
             "url": "https://qmind.ca/",
             "roles": [
+                {
+                    "title": "Director of Computer Vision",
+                    "description": "I am leading a team of five to develop a robotic computer vision system to map images to path traversability with K-Means clustering on IMU data, and neural networks on image data through ROS (Robot Operating System). ",
+                    "bullets":[
+                        "Guiding 5 teams of 5 students through exciting computer vision projects. "
+                    ],
+                    "startDate": "2022-03-01",
+                    "endDate": "Present",
+                    "currentJob": false,
+                    "location": "Kingston, Ontario"
+                },
                 {
                     "title": "Director of Research",
                     "description": "I am leading a team of five to develop a robotic computer vision system to map images to path traversability with K-Means clustering on IMU data, and neural networks on image data through ROS (Robot Operating System). ",
