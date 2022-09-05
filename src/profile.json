@@ -1,30 +1,35 @@
 {
     "title": "AI and Math at Queen's Computing",
     "summary": "I am a computing student focused on using artificial intelligence to solve high-value problems. Through experience in machine learning, data science, and software development, I aim to create exciting and deeply impactful projects. ",
-
     "studies": [
         {
             "institute": "Queen's University",
-            "logo":"queens-logo.jpg",
+            "logo": "queens-logo.jpg",
             "url": "https://www.queensu.ca/",
             "title": "Bachelor of Computing, Focus in AI, Minor in Math",
-            "durationInYears": "4 + internship year",
+            "durationInYears": "4 years + 1 internship year",
             "graduationYear": "2023",
             "gpa": "4.29 / 4.3"
         },
-	{
+        {
             "institute": "Holy Cross Catholic Secondary School",
-            "logo":"hc-logo.png",
+            "logo": "hc-logo.png",
             "url": "https://www.alcdsb.on.ca/School/hcss/",
             "title": "Ontario Secondary School Diploma",
-            "durationInYears": "4",
+            "durationInYears": "4 years",
             "graduationYear": "2018",
             "gpa": "99%"
         }
-	
     ],
-
-    "certifications":[
+    "certifications": [
+        {
+            "logo": "IBM_logo_square.svg.png",
+            "url": "https://courses.cognitiveclass.ai/certificates/dc9dad1c2c014aff979f6e1aa2ed38d1",
+            "title": "Introduction to Containers, Kubernetes, and OpenShift V2",
+            "issuer": "Cognitive Class by IBM Developer Skills Network",
+            "issueDate": "2021-10",
+            "verificationLink": "https://courses.cognitiveclass.ai/certificates/dc9dad1c2c014aff979f6e1aa2ed38d1"
+        },
         {
             "logo": "MichiganLogo.jpg",
             "url": "https://www.coursera.org/account/accomplishments/verify/PEFL2U3RAXGX",
@@ -49,17 +54,21 @@
             "issueDate": "2019-07",
             "verificationLink": "https://www.coursera.org/account/accomplishments/verify/47RZ9Q72EPHF?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate"
         }
-
     ],
-
     "awards": [
-	{
+        {
+            "awardName": "Dean's Honour List - Third Year",
+            "date": "2021-10",
+            "issuer": "Queen's University",
+            "description": "Awarded to excellent students in Queen's Science, Arts, or Computing by GPA. ",
+            "link": null
+        },
+        {
             "awardName": "Queen's Appeal Undergraduate Scholarship",
             "date": "2020-12",
             "issuer": "Queen's University",
             "description": "Awarded on the recommendation of the Awards Committee of the Faculty of Arts and Science to students with high academic standing. ",
             "link": null
-
         },
         {
             "awardName": "Dean's Honour List with Distinction - Second Year",
@@ -67,113 +76,96 @@
             "issuer": "Queen's University",
             "description": "Awarded to the top 3% of students in Queen's Science or Computing by cumulative GPA. ",
             "link": null
-
         },
-	{
+        {
             "awardName": "Dean's Honour List with Distinction - First Year",
             "date": "2019-10",
             "issuer": "Queen's University",
             "description": "Awarded to the top 3% of students in Queen's Science or Computing by cumulative GPA. ",
             "link": null
-
         },
-	{
+        {
             "awardName": "Dean's Special Award",
             "date": "2019-11",
             "issuer": "Queen's University",
             "description": "Awarded on the basis of academic excellence to students entering second, third, or fourth year in the Faculty of Arts and Science. ",
             "link": null
-
         },
-	{
+        {
             "awardName": "Robert Bruce Scholarship",
             "date": "2019-11",
             "issuer": "Queen's University",
             "description": "Awarded to the top 2 highest results in first year exams in Queen's Arts and Science. ",
             "link": null
-
         },
-
         {
             "awardName": "George Thomas Warren Scholarship in Computing Science",
             "date": "2019-8",
             "issuer": "Queen's Computing",
             "description": "Awarded to second year student(s) with the top GPA in the Queen's School of Computing.",
             "link": null
-
-        }, 
-	{
+        },
+        {
             "awardName": "Principal's Scholarship",
             "date": "2018-8",
             "issuer": "Queen's Computing",
             "description": "Entrance scholarship for Queen's University for a high school average greater than 95%. ",
             "link": null
-
-        }, 
-
+        },
         {
             "awardName": "Governor General's Academic Medal",
             "date": "2018-6",
             "issuer": "Holy Cross CSS",
             "description": "Highest four year average at a Canadian high school (99%).",
             "link": null
-
-        }, 
-
+        },
         {
             "awardName": "1st Place ECOO Programming Contest Kingston",
             "date": "2018-3",
             "issuer": "ECOO",
             "description": "In a competition of the best programmers in the greater Kingston area, I led my team to win the competition. ",
             "link": null
-
         },
-
         {
             "awardName": "6th Place Eastern Regional ECOO Programming Contest",
             "date": "2018-4",
             "issuer": "ECOO",
             "description": "Competing with the best programmers in a third of Ontario I lead my team to win 6th place, and advance to provincials. ",
             "link": null
-
         },
-
         {
             "awardName": "Duke of Edinburgh Gold Level Award",
             "date": "2017-9",
             "issuer": "Duke of Edinburgh",
             "description": "I earned \"The world's leading youth achievement award\", through dedication to computer science, martial arts, tutoring, kayaking in Georgian Bay, and completing SHAD 2017. ",
             "link": null
-
         },
-
         {
             "awardName": "SHAD Fellow",
             "date": "2017-7",
             "issuer": "The SHAD Foundation",
             "description": "Completed SHAD Waterloo 2017, Canada's premier STEM enrichment program for exceptional students. ",
             "link": null
-
         }
-
     ],
-
     "experiences": [
         {
-            "companyName": "Amazon",
+            "companyName": "Amazon Web Services",
             "logo": "Amazon_icon.svg.png",
             "logo_small": "Amazon_icon.svg.png",
             "url": "https://aws.amazon.com/",
             "roles": [
                 {
-                    "title": "Software Developer Engineer Intern",
+                    "title": "Software Development Engineer Intern",
                     "description": "Do lotsa research and stuf and stuff and stufff and I'll replace this. ",
                     "bullets": [
-                        "Developing on the AWS Autoscaling Team."
+                        "Developed an AWS service in Java to implement generic autoscaling API calls with specific AppStream API calls.",
+                        "Unit tested the adaptor service with >90% coverage, and developed end-to-end integration tests.",
+                        "Deployed the adapter service and tests on AWS using CloudFormation, and SAM Toolkit."
                     ],
                     "startDate": "2022-05-09",
-                    "endDate": "Present",
-                    "currentJob": true,
+                    "endDate": "2022-08-05",
+                    "currentJob": false,
                     "location": "Vancouver, BC"
                 }
             ]
@@ -190,7 +182,8 @@
                     "bullets": [
                         "Developed a Python library for profiling queries against merchant data services using REST and GraphQL endpoints to accelerate API and data model development.",
                         "Prototyped a cloud service using Flask, REST endpoints, a Google Cloud Storage bucket, and Kafka.",
-                        "Developed a dashboard with SQL and Mode for leadership to understand usage of data models." ],
+                        "Developed a dashboard with SQL and Mode for leadership to understand usage of data models."
+                    ],
                     "startDate": "2022-01-10",
                     "endDate": "2022-04-30",
                     "currentJob": false,
@@ -295,7 +288,6 @@
                 }
             ]
         },
-
         {
             "companyName": "QMIND- Queen's University AI Hub",
             "logo": "qmind-icon.png",
@@ -304,7 +296,7 @@
                 {
                     "title": "Director of Computer Vision",
                     "description": "I am leading a team of five to develop a robotic computer vision system to map images to path traversability with K-Means clustering on IMU data, and neural networks on image data through ROS (Robot Operating System). ",
-                    "bullets":[
+                    "bullets": [
                         "Guiding 5 teams of 5 students through exciting computer vision projects. "
                     ],
                     "startDate": "2022-03-01",
@@ -315,7 +307,7 @@
                 {
                     "title": "Director of Research",
                     "description": "I am leading a team of five to develop a robotic computer vision system to map images to path traversability with K-Means clustering on IMU data, and neural networks on image data through ROS (Robot Operating System). ",
-                    "bullets":[
+                    "bullets": [
                         "Guided and supported 5 teams of 4-5 students through exciting projects in robotics and computer vision. ",
                         "Coordinated the 2021 Proceedings of the Canadian Undergraduate Conference on AI, and guided 20+ teams of 4-5 members to write technical papers. ",
                         "Expanded QMIND's hardware library with Intel RealSense depth cameras, and upgraded robots to ROS2. "
@@ -328,7 +320,7 @@
                 {
                     "title": "AI Team Lead",
                     "description": "I am leading a team of five to develop a robotic computer vision system to map images to path traversability with K-Means clustering on IMU data, and neural networks on image data through ROS (Robot Operating System). ",
-                    "bullets":[
+                    "bullets": [
                         "I led a team of 5 to develop an autonomous pothole avoidance system with the Turtlebot3 Waffle Pi and the Robot Operating System. ",
                         "Developed a CNN to identify if a pothole was in frame with 97.9% accuracy.",
                         "Developed a CNN to localize the pothole in frame with a RMSE of 0.41 pixels.",
@@ -349,13 +341,12 @@
                         "My team of four partnered with Co-Operators and presented at the Canadian Undergraduate Conference on AI 2019."
                     ],
                     "startDate": "2018-09-01",
-                    "endDate" : "2019-04-30",
+                    "endDate": "2019-04-30",
                     "currentJob": false,
                     "location": "Kingston, Ontario"
                 }
             ]
         },
-
         {
             "companyName": "QWEB - Queen's Web Development Team",
             "logo": "qweb-icon.png",
@@ -371,7 +362,6 @@
                 }
             ]
         },
-
         {
             "companyName": "QBIT - Queen's Biomedical Innovation Team",
             "logo": "qbitLogo.jpg",
@@ -381,13 +371,12 @@
                     "title": "Software Team Engineer",
                     "description": "Development towards a low cost electrochemical impedance spectroscopy unit for detection of skin diseases.",
                     "startDate": "2018-09-01",
-                    "endDate" : "2019-04-30",
+                    "endDate": "2019-04-30",
                     "location": "Kingston, Ontario"
                 }
             ]
         }
     ],
-
     "projects": [
         {
             "projectName": "Robotic Computer Vision for Traversability",
@@ -415,7 +404,6 @@
                 "Robot Operating System"
             ]
         },
-
         {
             "projectName": "Surgical Video Classification",
             "role": "",
@@ -429,7 +417,7 @@
             ],
             "tools": [
                 "Python",
-                "Jupyter", 
+                "Jupyter",
                 "Keras",
                 "machine learning",
                 "deep learning",
@@ -437,7 +425,6 @@
                 "3D Slicer"
             ]
         },
-
         {
             "projectName": "Google Street View Appraiser",
             "role": "AI Design Team Member",
@@ -458,7 +445,6 @@
                 "Google Cloud Platform"
             ]
         },
-
         {
             "projectName": "Spoiler Blocking Chrome Extension",
             "role": "",
@@ -466,7 +452,7 @@
             "logo": "GUI.png",
             "github": "https://github.com/jlaframboise/qhacks",
             "bullets": [
-                "We developed a Chrome web extension in JavaScript to blur spoilers on web pages by keyword.", 
+                "We developed a Chrome web extension in JavaScript to blur spoilers on web pages by keyword.",
                 "I webscraped keywords from movie databases with custom Standard Library APIs I wrote in Python."
             ],
             "tools": [
@@ -478,7 +464,6 @@
                 "CSS"
             ]
         },
-
         {
             "projectName": "Medical Abnormalities Explorer",
             "role": "",
@@ -486,7 +471,7 @@
             "logo": "tree.png",
             "github": "https://github.com/jlaframboise/Medical-Abnormalities-Explorer",
             "bullets": [
-                "Developed a Java application to parse the Human Phenotype Ontology.", 
+                "Developed a Java application to parse the Human Phenotype Ontology.",
                 "Creating a tree structure which is recursively traversed to explore phenotypes."
             ],
             "tools": [
@@ -495,7 +480,6 @@
                 "tree structure"
             ]
         },
-
         {
             "projectName": "Encrypted Image Messenger",
             "role": "",
@@ -504,7 +488,7 @@
             "github": "https://github.com/jlaframboise/ImageMessenger",
             "bullets": [
                 "Hides messages in images by modifying RGB values with the Python Image Library.",
-                "Socket programming is used for client-server wireless communication.", 
+                "Socket programming is used for client-server wireless communication.",
                 "TkInter is used for the graphical user interface."
             ],
             "tools": [
@@ -515,14 +499,17 @@
                 "TkInter"
             ]
         }
-
-        
     ],
-
     "research": [
         {
             "paperTitle": "Open-source platform for automated collection of training data to support video-based feedback in surgical simulators",
-            "authors": ["Jacob Laframboise", "Tamas Ungi", "Kyle Sunderland", "Boris Zevin", "Gabor Fichtinger"],
+            "authors": [
+                "Jacob Laframboise",
+                "Tamas Ungi",
+                "Kyle Sunderland",
+                "Boris Zevin",
+                "Gabor Fichtinger"
+            ],
             "paperType": "Paper published",
             "authorship": 1,
             "pres": "Oral presentation",
@@ -532,12 +519,19 @@
             "date": "2020-03-16",
             "publisher": "SPIE Medical Imaging",
             "logo": "3DSlicerLogo.png"
-
         },
-
         {
             "paperTitle": "Analyzing the curvature of the colon in different patient positions",
-            "authors": ["Jacob Laframboise", "Tamas Ungi", "Andras Lasso", "Mark Asselin", "Matthew S. Holden", "Pearl Tan", "Lawrence Hookey", "Gabor Fichtinger"],
+            "authors": [
+                "Jacob Laframboise",
+                "Tamas Ungi",
+                "Andras Lasso",
+                "Mark Asselin",
+                "Matthew S. Holden",
+                "Pearl Tan",
+                "Lawrence Hookey",
+                "Gabor Fichtinger"
+            ],
             "paperType": "Paper published",
             "authorship": 1,
             "pres": "Poster presentation",
@@ -548,10 +542,15 @@
             "publisher": "SPIE Medical Imaging",
             "logo": "4Square.png"
         },
-
         {
             "paperTitle": "Automated segmentation of computed tomography colonography images using a 3D U-Net",
-            "authors": ["Keiran Barr", "Jacob Laframboise", "Tamas Ungi", "Lawrence Hookey", "Gabor Fichtinger"],
+            "authors": [
+                "Keiran Barr",
+                "Jacob Laframboise",
+                "Tamas Ungi",
+                "Lawrence Hookey",
+                "Gabor Fichtinger"
+            ],
             "paperType": "Paper published",
             "authorship": 2,
             "pres": "Poster pres",
@@ -561,10 +560,8 @@
             "date": "2020-03-16",
             "publisher": "SPIE Medical Imaging",
             "logo": "colon.png"
-
         }
     ],
-
     "skillsDepth": [
         "Python",
         "Java",
@@ -582,7 +579,6 @@
         "Raspberry pi",
         "research"
     ],
-
     "skillsFamiliar": [
         "JavaScript",
         "Node.Js",
@@ -592,7 +588,4 @@
         "Linux",
         "Azure"
     ]
-
-
-
 }

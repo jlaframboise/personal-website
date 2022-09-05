@@ -37,7 +37,7 @@ class Education extends React.Component{
                                         },
                                         {
                                             "key": "Duration", 
-                                            "value": study.durationInYears + " year(s)"
+                                            "value": study.durationInYears
                                         },
                                         {
                                             "key": "GPA",

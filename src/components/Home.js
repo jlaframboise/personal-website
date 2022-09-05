@@ -46,7 +46,7 @@ class Home extends React.Component{
 
                 <Row className=" d-flex justify-content-center text-center">
                     <Col>
-                        <h2>A machine learning, data science, and software development enthusiast</h2>
+                        <h2>A software development, and machine learning enthusiast</h2>
                         <hr></hr>
                         <h2>Queen's University School of Computing</h2>
                     </Col>
