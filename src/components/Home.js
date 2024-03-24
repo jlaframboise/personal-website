@@ -46,9 +46,8 @@ class Home extends React.Component{
 
                 <Row className=" d-flex justify-content-center text-center">
                     <Col>
-                        <h2>A software development, and machine learning enthusiast</h2>
-                        <hr></hr>
-                        <h2>Queen's University School of Computing</h2>
+                        <h2>A software development, and machine learning enthusiast.</h2>
+                        <h2>SDE @ Amazon | Queen's University Alumni</h2>
                     </Col>
                 </Row>
 
@@ -73,14 +72,6 @@ class Home extends React.Component{
                     </Button>
 
                 </div>
-
-                {/* <Row className="align-items-center">
-                    <Col xs={{offset: 2, size: 8}}>
-                        <h2>A machine learning, data science, and software development enthusiast</h2>
-                        <hr></hr>
-                        <h2>Student at Queen's Computing</h2>
-                    </Col>
-                </Row> */}
                     
                 
             </Container>
