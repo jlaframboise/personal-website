@@ -156,15 +156,35 @@
             "url": "https://advertising.amazon.com/",
             "roles": [
                 {
+                    "title": "Software Development Engineer II",
+                    "description": "Do lotsa research and stuf and stuff and stufff and I'll replace this. ",
+                    "bullets": [
+                        "Developing the Rule-Based Audiences features in Amazon Advertising.",
+                        "Skills: Kotlin, AWS, TypeScript, Scala, Spark, software design."
+                    ],
+                    "startDate": "2025-07-01",
+                    "endDate": "Present",
+                    "currentJob": true,
+                    "location": "Toronto, Ontario"
+                }
+            ]
+        },
+        {
+            "companyName": "Amazon",
+            "logo": "Amazon_icon.svg.png",
+            "logo_small": "Amazon_icon.svg.png",
+            "url": "https://advertising.amazon.com/",
+            "roles": [
+                {
                     "title": "Software Development Engineer",
                     "description": "Do lotsa research and stuf and stuff and stufff and I'll replace this. ",
                     "bullets": [
                         "Developing the Rule-Based Audiences features in Amazon Advertising.",
-                        "Skills: Kotlin, AWS, TypeScript, software design."
+                        "Skills: Kotlin, AWS, TypeScript, Scala, Spark, software design."
                     ],
                     "startDate": "2023-06-05",
-                    "endDate": "Present",
-                    "currentJob": true,
+                    "endDate": "2025-06-30",
+                    "currentJob": false,
                     "location": "Toronto, Ontario"
                 }
             ]
